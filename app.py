@@ -102,6 +102,53 @@ def build_component_subrows(score_breakdown: dict) -> list[dict[str, str]]:
     return rows
 
 
+def render_expandable_breakdown(score_breakdown: dict) -> None:
+    details = (score_breakdown or {}).get("details", {})
+    components = details.get("component_breakdown", {})
+    ordered = ["family_fit", "quietness", "spec", "value", "penalties"]
+    top_rows = build_score_breakdown_rows(score_breakdown)
+    points_by_component = {row["Component"]: row["Points"] for row in top_rows}
+
+    for component_key in ordered:
+        component_label = component_key.replace("_", " ").title()
+        component_points = points_by_component.get(component_label)
+        if component_key == "penalties":
+            component_label = "Penalties"
+            component_points = points_by_component.get("Penalties")
+
+        if component_points is None:
+            continue
+
+        title = f"{component_label}: {component_points}"
+        payload = components.get(component_key, {})
+        with st.expander(title, expanded=False):
+            if not isinstance(payload, dict) or not payload:
+                st.write("No sub-categories available.")
+                continue
+
+            rows: list[dict[str, str]] = []
+            for key, value in payload.items():
+                if isinstance(value, dict):
+                    for nested_key, nested_value in value.items():
+                        rows.append(
+                            {
+                                "Sub-category": f"{key.replace('_', ' ').title()}: {nested_key.replace('_', ' ').title()}",
+                                "Value": _format_sub_value(nested_value),
+                            }
+                        )
+                else:
+                    rows.append(
+                        {
+                            "Sub-category": key.replace("_", " ").title(),
+                            "Value": _format_sub_value(value),
+                        }
+                    )
+            if rows:
+                st.table(pd.DataFrame(rows))
+            else:
+                st.write("No sub-categories available.")
+
+
 st.set_page_config(page_title="Car Agent Rankings", layout="wide")
 st.title("Car Agent Rankings")
 
@@ -157,16 +204,10 @@ if selected:
 
     st.subheader("Score Breakdown")
     breakdown = selected.get("score_breakdown", {})
-    breakdown_rows = build_score_breakdown_rows(breakdown)
-    if breakdown_rows:
-        st.table(pd.DataFrame(breakdown_rows))
+    if build_score_breakdown_rows(breakdown):
+        render_expandable_breakdown(breakdown)
     else:
         st.info("No score breakdown available for this listing.")
-
-    subrows = build_component_subrows(breakdown)
-    if subrows:
-        st.markdown("**Sub-categories by Component**")
-        st.table(pd.DataFrame(subrows))
 
     details = breakdown.get("details", {})
     if details:
