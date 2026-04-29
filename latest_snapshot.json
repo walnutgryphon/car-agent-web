@@ -10,6 +10,57 @@
       "score": 69,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.518,
+              "raw_total": 7.518,
+              "weighted_points": -0.376
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 66.667,
+              "raw_total": 10.0,
+              "smaller_wheels": 2.0,
+              "weighted_points": 13.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {},
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 424869,
+              "normalized_score": 55.957,
+              "value_ratio": 1.063,
+              "weighted_points": 11.191
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -52,6 +103,65 @@
       "score": 69,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.883,
+              "raw_total": 4.883,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.244
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 78.571,
+              "raw_total": 27.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 15.714
+            },
+            "value": {
+              "expected_price_sek": 494973,
+              "normalized_score": 42.24,
+              "value_ratio": 0.918,
+              "weighted_points": 8.448
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -94,6 +204,66 @@
       "score": 69,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.637,
+              "raw_total": 4.638,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.232
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 78.571,
+              "raw_total": 27.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 15.714
+            },
+            "value": {
+              "expected_price_sek": 517431,
+              "normalized_score": 44.407,
+              "value_ratio": 0.941,
+              "weighted_points": 8.881
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -136,6 +306,62 @@
       "score": 68,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "raw_total": 4.0,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.2
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 70.0,
+              "raw_total": 24.5,
+              "trim_points": {
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 14.0
+            },
+            "value": {
+              "expected_price_sek": 523086,
+              "normalized_score": 48.778,
+              "value_ratio": 0.987,
+              "weighted_points": 9.756
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -177,6 +403,66 @@
       "score": 68,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.78,
+              "raw_total": 6.78,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.339
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 78.571,
+              "raw_total": 27.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 15.714
+            },
+            "value": {
+              "expected_price_sek": 494275,
+              "normalized_score": 40.39,
+              "value_ratio": 0.899,
+              "weighted_points": 8.078
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -219,6 +505,65 @@
       "score": 67,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.488,
+              "raw_total": 5.488,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.274
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "air_suspension": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 70.0,
+              "raw_total": 24.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 14.0
+            },
+            "value": {
+              "expected_price_sek": 508237,
+              "normalized_score": 42.866,
+              "value_ratio": 0.925,
+              "weighted_points": 8.573
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -261,6 +606,63 @@
       "score": 66,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "raw_total": 4.0,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.2
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "panoramic_roof": 0.0,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "air_suspension": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 64.286,
+              "raw_total": 22.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 12.857
+            },
+            "value": {
+              "expected_price_sek": 538075,
+              "normalized_score": 47.957,
+              "value_ratio": 0.978,
+              "weighted_points": 9.591
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -302,6 +704,52 @@
       "score": 65,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 32.857,
+              "raw_total": 11.5,
+              "trim_points": {},
+              "weighted_points": 6.571
+            },
+            "value": {
+              "expected_price_sek": 459228,
+              "normalized_score": 64.615,
+              "value_ratio": 1.154,
+              "weighted_points": 12.923
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -343,6 +791,55 @@
       "score": 65,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.931,
+              "raw_total": 5.931,
+              "weighted_points": -0.297
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 44.286,
+              "raw_total": 15.5,
+              "trim_points": {},
+              "weighted_points": 8.857
+            },
+            "value": {
+              "expected_price_sek": 439532,
+              "normalized_score": 54.442,
+              "value_ratio": 1.047,
+              "weighted_points": 10.888
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -385,6 +882,55 @@
       "score": 65,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.633,
+              "raw_total": 5.633,
+              "weighted_points": -0.282
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 44.286,
+              "raw_total": 15.5,
+              "trim_points": {},
+              "weighted_points": 8.857
+            },
+            "value": {
+              "expected_price_sek": 442291,
+              "normalized_score": 55.066,
+              "value_ratio": 1.053,
+              "weighted_points": 11.013
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -427,6 +973,62 @@
       "score": 65,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.344,
+              "raw_total": 0.344,
+              "weighted_points": -0.017
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "harman_kardon": 1.0,
+              "normalized_score": 60.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 9.0,
+              "weighted_points": 12.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "air_suspension": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 52.857,
+              "raw_total": 18.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 10.571
+            },
+            "value": {
+              "expected_price_sek": 500586,
+              "normalized_score": 50.187,
+              "value_ratio": 1.002,
+              "weighted_points": 10.037
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -468,6 +1070,52 @@
       "score": 64,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.05,
+              "raw_total": 6.05,
+              "weighted_points": -0.302
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 27.143,
+              "raw_total": 9.5,
+              "trim_points": {},
+              "weighted_points": 5.429
+            },
+            "value": {
+              "expected_price_sek": 455975,
+              "normalized_score": 66.099,
+              "value_ratio": 1.169,
+              "weighted_points": 13.22
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -510,6 +1158,53 @@
       "score": 64,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.3,
+              "raw_total": 2.3,
+              "weighted_points": -0.115
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 32.857,
+              "raw_total": 11.5,
+              "trim_points": {},
+              "weighted_points": 6.571
+            },
+            "value": {
+              "expected_price_sek": 426892,
+              "normalized_score": 59.013,
+              "value_ratio": 1.095,
+              "weighted_points": 11.803
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -551,6 +1246,66 @@
       "score": 63,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "sun_curtains": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 92.857,
+              "raw_total": 32.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 18.571
+            },
+            "value": {
+              "expected_price_sek": 470721,
+              "normalized_score": 41.163,
+              "value_ratio": 0.907,
+              "weighted_points": 8.233
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -590,6 +1345,52 @@
       "score": 62,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.175,
+              "raw_total": 2.175,
+              "weighted_points": -0.109
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "camera_360": 4.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 35.714,
+              "raw_total": 12.5,
+              "trim_points": {},
+              "weighted_points": 7.143
+            },
+            "value": {
+              "expected_price_sek": 428043,
+              "normalized_score": 45.586,
+              "value_ratio": 0.954,
+              "weighted_points": 9.117
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -631,6 +1432,61 @@
       "score": 62,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 81.429,
+              "raw_total": 28.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 16.286
+            },
+            "value": {
+              "expected_price_sek": 508021,
+              "normalized_score": 51.756,
+              "value_ratio": 1.018,
+              "weighted_points": 10.351
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -670,6 +1526,58 @@
       "score": 60,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.795,
+              "raw_total": 6.795,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.34
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "bowers_wilkins": 2.0,
+              "normalized_score": 66.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 10.0,
+              "weighted_points": 13.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "bowers_wilkins": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0
+              },
+              "normalized_score": 32.857,
+              "raw_total": 11.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 6.571
+            },
+            "value": {
+              "expected_price_sek": 475108,
+              "normalized_score": 39.412,
+              "value_ratio": 0.889,
+              "weighted_points": 7.882
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -712,6 +1620,58 @@
       "score": 60,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.307,
+              "raw_total": 4.308,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.215
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "panoramic_roof": 0.0,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 520999,
+              "normalized_score": 45.023,
+              "value_ratio": 0.948,
+              "weighted_points": 9.005
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -754,6 +1714,54 @@
       "score": 59,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": null,
+              "engine_adjustment_raw": 0.0,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 34.286,
+              "raw_total": 12.0,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 6.857
+            },
+            "value": {
+              "expected_price_sek": 459020,
+              "normalized_score": 85.209,
+              "value_ratio": 1.371,
+              "weighted_points": 17.042
+            }
+          },
           "engine_adjustment": {
             "applied": null,
             "points": 0.0
@@ -795,6 +1803,54 @@
       "score": 59,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": null,
+              "engine_adjustment_raw": 0.0,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 34.286,
+              "raw_total": 12.0,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 6.857
+            },
+            "value": {
+              "expected_price_sek": 463321,
+              "normalized_score": 84.495,
+              "value_ratio": 1.363,
+              "weighted_points": 16.899
+            }
+          },
           "engine_adjustment": {
             "applied": null,
             "points": 0.0
@@ -836,6 +1892,60 @@
       "score": 59,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 61.429,
+              "raw_total": 21.5,
+              "trim_points": {},
+              "weighted_points": 12.286
+            },
+            "value": {
+              "expected_price_sek": 542745,
+              "normalized_score": 64.727,
+              "value_ratio": 1.155,
+              "weighted_points": 12.945
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -877,6 +1987,56 @@
       "score": 58,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 61.429,
+              "raw_total": 21.5,
+              "trim_points": {},
+              "weighted_points": 12.286
+            },
+            "value": {
+              "expected_price_sek": 473935,
+              "normalized_score": 52.984,
+              "value_ratio": 1.031,
+              "weighted_points": 10.597
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -918,6 +2078,61 @@
       "score": 58,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.171,
+              "raw_total": 2.171,
+              "weighted_points": -0.109
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 70.0,
+              "raw_total": 24.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 14.0
+            },
+            "value": {
+              "expected_price_sek": 445207,
+              "normalized_score": 46.965,
+              "value_ratio": 0.968,
+              "weighted_points": 9.393
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -959,6 +2174,63 @@
       "score": 58,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.78,
+              "raw_total": 1.78,
+              "weighted_points": -0.089
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "sun_curtains": 2.0
+              },
+              "normalized_score": 72.857,
+              "raw_total": 25.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 14.571
+            },
+            "value": {
+              "expected_price_sek": 448955,
+              "normalized_score": 37.036,
+              "value_ratio": 0.864,
+              "weighted_points": 7.407
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -1000,6 +2272,55 @@
       "score": 57,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.529,
+              "raw_total": 5.529,
+              "weighted_points": -0.276
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": null,
+              "engine_adjustment_raw": 0.0,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 34.286,
+              "raw_total": 12.0,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 6.857
+            },
+            "value": {
+              "expected_price_sek": 443247,
+              "normalized_score": 77.089,
+              "value_ratio": 1.285,
+              "weighted_points": 15.418
+            }
+          },
           "engine_adjustment": {
             "applied": null,
             "points": 0.0
@@ -1042,6 +2363,58 @@
       "score": 57,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 67.143,
+              "raw_total": 23.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 13.429
+            },
+            "value": {
+              "expected_price_sek": 519750,
+              "normalized_score": 53.772,
+              "value_ratio": 1.04,
+              "weighted_points": 10.754
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1081,6 +2454,56 @@
       "score": 56,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 469020,
+              "normalized_score": 49.822,
+              "value_ratio": 0.998,
+              "weighted_points": 9.964
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1120,6 +2543,60 @@
       "score": 56,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.184,
+              "raw_total": 2.184,
+              "weighted_points": -0.109
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "sun_curtains": 2.0
+              },
+              "normalized_score": 64.286,
+              "raw_total": 22.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 12.857
+            },
+            "value": {
+              "expected_price_sek": 445078,
+              "normalized_score": 41.467,
+              "value_ratio": 0.91,
+              "weighted_points": 8.293
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1161,6 +2638,55 @@
       "score": 55,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.129,
+              "raw_total": 5.129,
+              "weighted_points": -0.256
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": null,
+              "engine_adjustment_raw": 0.0,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 42.857,
+              "raw_total": 15.0,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 8.571
+            },
+            "value": {
+              "expected_price_sek": 502816,
+              "normalized_score": 68.759,
+              "value_ratio": 1.197,
+              "weighted_points": 13.752
+            }
+          },
           "engine_adjustment": {
             "applied": null,
             "points": 0.0
@@ -1203,6 +2729,56 @@
       "score": 55,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.526,
+              "raw_total": 7.526,
+              "weighted_points": -0.376
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 50.0,
+              "raw_total": 17.5,
+              "trim_points": {},
+              "weighted_points": 10.0
+            },
+            "value": {
+              "expected_price_sek": 441791,
+              "normalized_score": 52.628,
+              "value_ratio": 1.028,
+              "weighted_points": 10.526
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1245,6 +2821,59 @@
       "score": 55,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.875,
+              "raw_total": 6.875,
+              "weighted_points": -0.344
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 58.571,
+              "raw_total": 20.5,
+              "trim_points": {},
+              "weighted_points": 11.714
+            },
+            "value": {
+              "expected_price_sek": 504053,
+              "normalized_score": 53.732,
+              "value_ratio": 1.039,
+              "weighted_points": 10.746
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1287,6 +2916,57 @@
       "score": 54,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.476,
+              "raw_total": 6.476,
+              "weighted_points": -0.324
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 488814,
+              "normalized_score": 59.377,
+              "value_ratio": 1.099,
+              "weighted_points": 11.875
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1329,6 +3009,57 @@
       "score": 54,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.213,
+              "raw_total": 5.213,
+              "weighted_points": -0.261
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 50.0,
+              "raw_total": 17.5,
+              "trim_points": {},
+              "weighted_points": 10.0
+            },
+            "value": {
+              "expected_price_sek": 501943,
+              "normalized_score": 58.888,
+              "value_ratio": 1.094,
+              "weighted_points": 11.778
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1371,6 +3102,55 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 41.429,
+              "raw_total": 14.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 8.286
+            },
+            "value": {
+              "expected_price_sek": 505732,
+              "normalized_score": 59.672,
+              "value_ratio": 1.102,
+              "weighted_points": 11.934
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1412,6 +3192,56 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.414,
+              "raw_total": 6.415,
+              "weighted_points": -0.321
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {},
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 489453,
+              "normalized_score": 56.105,
+              "value_ratio": 1.064,
+              "weighted_points": 11.221
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1454,6 +3284,55 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.226,
+              "raw_total": 7.226,
+              "weighted_points": -0.361
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "camera_360": 4.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 50.0,
+              "raw_total": 17.5,
+              "trim_points": {},
+              "weighted_points": 10.0
+            },
+            "value": {
+              "expected_price_sek": 481018,
+              "normalized_score": 54.362,
+              "value_ratio": 1.046,
+              "weighted_points": 10.872
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1496,6 +3375,55 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "air_suspension": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 485488,
+              "normalized_score": 50.096,
+              "value_ratio": 1.001,
+              "weighted_points": 10.019
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1535,6 +3463,57 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.557,
+              "raw_total": 1.557,
+              "weighted_points": -0.078
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "leather_seats": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 50.0,
+              "raw_total": 17.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 10.0
+            },
+            "value": {
+              "expected_price_sek": 451103,
+              "normalized_score": 40.881,
+              "value_ratio": 0.904,
+              "weighted_points": 8.176
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -1576,6 +3555,54 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "air_suspension": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 522614,
+              "normalized_score": 49.568,
+              "value_ratio": 0.995,
+              "weighted_points": 9.914
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1615,6 +3642,62 @@
       "score": 53,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 63.333,
+              "powertrain_bonus": 4.0,
+              "raw_total": 19.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 22.167
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.691,
+              "raw_total": 5.691,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.285
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 66.571,
+              "raw_total": 23.3,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 13.314
+            },
+            "value": {
+              "expected_price_sek": 449578,
+              "normalized_score": 34.847,
+              "value_ratio": 0.84,
+              "weighted_points": 6.969
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -1657,6 +3740,52 @@
       "score": 52,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 30.0,
+              "raw_total": 10.5,
+              "trim_points": {},
+              "weighted_points": 6.0
+            },
+            "value": {
+              "expected_price_sek": 449526,
+              "normalized_score": 54.545,
+              "value_ratio": 1.048,
+              "weighted_points": 10.909
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1698,6 +3827,55 @@
       "score": 52,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.227,
+              "raw_total": 1.227,
+              "weighted_points": -0.061
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 41.429,
+              "raw_total": 14.5,
+              "trim_points": {
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 8.286
+            },
+            "value": {
+              "expected_price_sek": 436802,
+              "normalized_score": 41.486,
+              "value_ratio": 0.91,
+              "weighted_points": 8.297
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -1739,6 +3917,56 @@
       "score": 52,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 541080,
+              "normalized_score": 53.87,
+              "value_ratio": 1.041,
+              "weighted_points": 10.774
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1778,6 +4006,50 @@
       "score": 51,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.685,
+              "raw_total": 7.685,
+              "weighted_points": -0.384
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 21.429,
+              "raw_total": 7.5,
+              "trim_points": {},
+              "weighted_points": 4.286
+            },
+            "value": {
+              "expected_price_sek": 440263,
+              "normalized_score": 59.825,
+              "value_ratio": 1.103,
+              "weighted_points": 11.965
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1820,6 +4092,48 @@
       "score": 51,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 454709,
+              "normalized_score": 59.14,
+              "value_ratio": 1.096,
+              "weighted_points": 11.828
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1859,6 +4173,53 @@
       "score": 51,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.3,
+              "raw_total": 5.3,
+              "weighted_points": -0.265
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 30.0,
+              "raw_total": 10.5,
+              "trim_points": {},
+              "weighted_points": 6.0
+            },
+            "value": {
+              "expected_price_sek": 463182,
+              "normalized_score": 53.001,
+              "value_ratio": 1.032,
+              "weighted_points": 10.6
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1901,6 +4262,57 @@
       "score": 51,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "panoramic_roof": 0.0,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 49.429,
+              "raw_total": 17.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 9.886
+            },
+            "value": {
+              "expected_price_sek": 521096,
+              "normalized_score": 58.349,
+              "value_ratio": 1.088,
+              "weighted_points": 11.67
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -1940,6 +4352,50 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 0.45,
+              "raw_total": 5.45,
+              "weighted_points": -0.273
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 461741,
+              "normalized_score": 57.25,
+              "value_ratio": 1.076,
+              "weighted_points": 11.45
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -1982,6 +4438,55 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.529,
+              "raw_total": 7.529,
+              "weighted_points": -0.376
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 35.714,
+              "raw_total": 12.5,
+              "trim_points": {},
+              "weighted_points": 7.143
+            },
+            "value": {
+              "expected_price_sek": 477868,
+              "normalized_score": 52.692,
+              "value_ratio": 1.028,
+              "weighted_points": 10.538
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2024,6 +4529,53 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.141,
+              "raw_total": 6.141,
+              "weighted_points": -0.307
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 32.857,
+              "raw_total": 11.5,
+              "trim_points": {},
+              "weighted_points": 6.571
+            },
+            "value": {
+              "expected_price_sek": 492291,
+              "normalized_score": 54.718,
+              "value_ratio": 1.05,
+              "weighted_points": 10.944
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2066,6 +4618,50 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "pilot_assist": 2.0
+              },
+              "normalized_score": 24.286,
+              "raw_total": 8.5,
+              "trim_points": {},
+              "weighted_points": 4.857
+            },
+            "value": {
+              "expected_price_sek": 564580,
+              "normalized_score": 62.485,
+              "value_ratio": 1.131,
+              "weighted_points": 12.497
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2107,6 +4703,57 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 3.0,
+              "raw_total": 3.0,
+              "weighted_points": -0.15
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 44.286,
+              "raw_total": 15.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 8.857
+            },
+            "value": {
+              "expected_price_sek": 491891,
+              "normalized_score": 45.055,
+              "value_ratio": 0.948,
+              "weighted_points": 9.011
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2148,6 +4795,58 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.971,
+              "raw_total": 5.971,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.299
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 483668,
+              "normalized_score": 38.573,
+              "value_ratio": 0.88,
+              "weighted_points": 7.715
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -2190,6 +4889,57 @@
       "score": 50,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.42,
+              "raw_total": 4.42,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.221
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "comfort_seats": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 539774,
+              "normalized_score": 48.251,
+              "value_ratio": 0.982,
+              "weighted_points": 9.65
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2232,6 +4982,49 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.95,
+              "raw_total": 6.95,
+              "weighted_points": -0.348
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0
+              },
+              "normalized_score": 12.857,
+              "raw_total": 4.5,
+              "trim_points": {},
+              "weighted_points": 2.571
+            },
+            "value": {
+              "expected_price_sek": 447326,
+              "normalized_score": 56.422,
+              "value_ratio": 1.068,
+              "weighted_points": 11.284
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2274,6 +5067,52 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.969,
+              "raw_total": 0.969,
+              "weighted_points": -0.048
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 40.857,
+              "raw_total": 14.3,
+              "trim_points": {},
+              "weighted_points": 8.171
+            },
+            "value": {
+              "expected_price_sek": 472864,
+              "normalized_score": 61.983,
+              "value_ratio": 1.126,
+              "weighted_points": 12.397
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -2315,6 +5154,50 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.2,
+              "raw_total": 6.2,
+              "weighted_points": -0.31
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 454534,
+              "normalized_score": 53.362,
+              "value_ratio": 1.035,
+              "weighted_points": 10.672
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2357,6 +5240,50 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.35,
+              "raw_total": 6.35,
+              "weighted_points": -0.318
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 470519,
+              "normalized_score": 54.553,
+              "value_ratio": 1.048,
+              "weighted_points": 10.911
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2399,6 +5326,49 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 477597,
+              "normalized_score": 53.849,
+              "value_ratio": 1.041,
+              "weighted_points": 10.77
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2440,6 +5410,50 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.25,
+              "raw_total": 10.25,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.513
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 21.429,
+              "raw_total": 7.5,
+              "trim_points": {},
+              "weighted_points": 4.286
+            },
+            "value": {
+              "expected_price_sek": 519230,
+              "normalized_score": 61.079,
+              "value_ratio": 1.117,
+              "weighted_points": 12.216
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2482,6 +5496,49 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 13.0,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.65
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 548009,
+              "normalized_score": 66.004,
+              "value_ratio": 1.168,
+              "weighted_points": 13.201
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2524,6 +5581,47 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 507422,
+              "normalized_score": 51.661,
+              "value_ratio": 1.017,
+              "weighted_points": 10.332
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2563,6 +5661,50 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 24.286,
+              "raw_total": 8.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 4.857
+            },
+            "value": {
+              "expected_price_sek": 481681,
+              "normalized_score": 46.703,
+              "value_ratio": 0.965,
+              "weighted_points": 9.341
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2602,6 +5744,54 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.247,
+              "raw_total": 0.247,
+              "weighted_points": -0.012
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 30.0,
+              "raw_total": 10.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 6.0
+            },
+            "value": {
+              "expected_price_sek": 541711,
+              "normalized_score": 53.985,
+              "value_ratio": 1.042,
+              "weighted_points": 10.797
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2643,6 +5833,57 @@
       "score": 49,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.928,
+              "raw_total": 4.928,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.246
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.571,
+              "raw_total": 13.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.714
+            },
+            "value": {
+              "expected_price_sek": 514285,
+              "normalized_score": 44.679,
+              "value_ratio": 0.944,
+              "weighted_points": 8.936
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2685,6 +5926,52 @@
       "score": 48,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.453,
+              "raw_total": 8.453,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.423
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "electric_front_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 24.286,
+              "raw_total": 8.5,
+              "trim_points": {},
+              "weighted_points": 4.857
+            },
+            "value": {
+              "expected_price_sek": 499448,
+              "normalized_score": 54.055,
+              "value_ratio": 1.043,
+              "weighted_points": 10.811
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2727,6 +6014,51 @@
       "score": 48,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 24.286,
+              "raw_total": 8.5,
+              "trim_points": {},
+              "weighted_points": 4.857
+            },
+            "value": {
+              "expected_price_sek": 531033,
+              "normalized_score": 55.896,
+              "value_ratio": 1.062,
+              "weighted_points": 11.179
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2768,6 +6100,51 @@
       "score": 48,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "harman_kardon": 1.0,
+                "leather_seats": 1.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 21.429,
+              "raw_total": 7.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 4.286
+            },
+            "value": {
+              "expected_price_sek": 468919,
+              "normalized_score": 39.21,
+              "value_ratio": 0.886,
+              "weighted_points": 7.842
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -2807,6 +6184,51 @@
       "score": 48,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t8_recharge_bonus",
+              "engine_adjustment_raw": 1.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "panoramic_roof": 1.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 24.286,
+              "raw_total": 8.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 4.857
+            },
+            "value": {
+              "expected_price_sek": 483156,
+              "normalized_score": 40.157,
+              "value_ratio": 0.896,
+              "weighted_points": 8.031
+            }
+          },
           "engine_adjustment": {
             "applied": "t8_recharge_bonus",
             "points": 1.5
@@ -2846,6 +6268,56 @@
       "score": 48,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "poor_spec_visibility_penalty": 2.0,
+              "raw_total": 6.0,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.3
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 32.857,
+              "raw_total": 11.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "ultimate_trim": 2.0
+              },
+              "weighted_points": 6.571
+            },
+            "value": {
+              "expected_price_sek": 515867,
+              "normalized_score": 45.771,
+              "value_ratio": 0.955,
+              "weighted_points": 9.154
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2888,6 +6360,49 @@
       "score": 47,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.615,
+              "raw_total": 15.614,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.781
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 12.857,
+              "raw_total": 4.5,
+              "trim_points": {},
+              "weighted_points": 2.571
+            },
+            "value": {
+              "expected_price_sek": 476979,
+              "normalized_score": 60.649,
+              "value_ratio": 1.112,
+              "weighted_points": 12.13
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -2931,6 +6446,55 @@
       "score": 47,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 49.429,
+              "raw_total": 17.3,
+              "trim_points": {},
+              "weighted_points": 9.886
+            },
+            "value": {
+              "expected_price_sek": 435676,
+              "normalized_score": 49.173,
+              "value_ratio": 0.991,
+              "weighted_points": 9.835
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -2972,6 +6536,49 @@
       "score": 47,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.362,
+              "raw_total": 15.363,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.768
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 12.857,
+              "raw_total": 4.5,
+              "trim_points": {},
+              "weighted_points": 2.571
+            },
+            "value": {
+              "expected_price_sek": 498783,
+              "normalized_score": 60.533,
+              "value_ratio": 1.111,
+              "weighted_points": 12.107
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -3015,6 +6622,52 @@
       "score": 47,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.5,
+              "raw_total": 14.5,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.725
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 508107,
+              "normalized_score": 55.773,
+              "value_ratio": 1.061,
+              "weighted_points": 11.155
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -3058,6 +6711,52 @@
       "score": 46,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "mileage_over_ideal": 2.712,
+              "raw_total": 10.712,
+              "requires_strong_spec_for_top_ranking": 8.0,
+              "weighted_points": -0.536
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "leather_seats": 1.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 21.429,
+              "raw_total": 7.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 4.286
+            },
+            "value": {
+              "expected_price_sek": 495004,
+              "normalized_score": 45.608,
+              "value_ratio": 0.954,
+              "weighted_points": 9.122
+            }
+          },
           "engine_adjustment": {
             "applied": "t6_recharge_bonus",
             "points": 0.5
@@ -3100,6 +6799,52 @@
       "score": 45,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "driver_assistance": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.0,
+              "raw_total": 13.3,
+              "trim_points": {},
+              "weighted_points": 7.6
+            },
+            "value": {
+              "expected_price_sek": 434841,
+              "normalized_score": 48.993,
+              "value_ratio": 0.989,
+              "weighted_points": 9.799
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3141,6 +6886,51 @@
       "score": 44,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.697,
+              "raw_total": 1.697,
+              "weighted_points": -0.085
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 522135,
+              "normalized_score": 48.767,
+              "value_ratio": 0.987,
+              "weighted_points": 9.753
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3182,6 +6972,51 @@
       "score": 44,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.472,
+              "raw_total": 1.472,
+              "weighted_points": -0.074
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 525969,
+              "normalized_score": 49.456,
+              "value_ratio": 0.994,
+              "weighted_points": 9.891
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3223,6 +7058,51 @@
       "score": 44,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.415,
+              "raw_total": 0.415,
+              "weighted_points": -0.021
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 543984,
+              "normalized_score": 52.525,
+              "value_ratio": 1.027,
+              "weighted_points": 10.505
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3264,6 +7144,51 @@
       "score": 44,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.477,
+              "raw_total": 0.477,
+              "weighted_points": -0.024
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 542927,
+              "normalized_score": 51.246,
+              "value_ratio": 1.013,
+              "weighted_points": 10.249
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3305,6 +7230,51 @@
       "score": 44,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 80.0,
+              "powertrain_bonus": 4.0,
+              "raw_total": 24.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 28.0
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.9,
+              "raw_total": 0.9,
+              "weighted_points": -0.045
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 535718,
+              "normalized_score": 49.968,
+              "value_ratio": 1.0,
+              "weighted_points": 9.994
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3346,6 +7316,55 @@
       "score": 37,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 63.333,
+              "powertrain_bonus": 4.0,
+              "raw_total": 19.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 22.167
+            },
+            "penalties": {
+              "mileage_over_ideal": 1.265,
+              "raw_total": 5.265,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.263
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "blis": 1.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 38.0,
+              "raw_total": 13.3,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.6
+            },
+            "value": {
+              "expected_price_sek": 455828,
+              "normalized_score": 35.957,
+              "value_ratio": 0.852,
+              "weighted_points": 7.191
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3388,6 +7407,53 @@
       "score": 35,
       "score_breakdown": {
         "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 0.0,
+              "normalized_score": 63.333,
+              "powertrain_bonus": 4.0,
+              "raw_total": 19.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 22.167
+            },
+            "penalties": {
+              "mileage_over_ideal": 0.378,
+              "raw_total": 4.378,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.219
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "b4_diesel_bonus",
+              "engine_adjustment_raw": 0.3,
+              "feature_points": {
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "tinted_windows": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 29.429,
+              "raw_total": 10.3,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 5.886
+            },
+            "value": {
+              "expected_price_sek": 468842,
+              "normalized_score": 37.634,
+              "value_ratio": 0.87,
+              "weighted_points": 7.527
+            }
+          },
           "engine_adjustment": {
             "applied": "b4_diesel_bonus",
             "points": 0.3
@@ -3421,7 +7487,7 @@
       "year": 2024
     }
   ],
-  "generated_at": "2026-04-29T08:20:19.269801+00:00",
+  "generated_at": "2026-04-29T08:26:35.264443+00:00",
   "source_run_id": 34,
   "total_active": 83
 }

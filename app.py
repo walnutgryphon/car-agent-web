@@ -62,6 +62,46 @@ def build_score_breakdown_rows(score_breakdown: dict) -> list[dict[str, str]]:
     return rows
 
 
+def _format_sub_value(value) -> str:
+    if value is None:
+        return "N/A"
+    if isinstance(value, float):
+        return f"{value:.3f}".rstrip("0").rstrip(".")
+    return str(value)
+
+
+def build_component_subrows(score_breakdown: dict) -> list[dict[str, str]]:
+    details = (score_breakdown or {}).get("details", {})
+    components = details.get("component_breakdown", {})
+    ordered = ["family_fit", "quietness", "spec", "value", "penalties"]
+
+    rows: list[dict[str, str]] = []
+    for component in ordered:
+        payload = components.get(component, {})
+        if not isinstance(payload, dict) or not payload:
+            continue
+        label = component.replace("_", " ").title()
+        for key, value in payload.items():
+            if isinstance(value, dict):
+                for nested_key, nested_value in value.items():
+                    rows.append(
+                        {
+                            "Category": label,
+                            "Sub-category": f"{key.replace('_', ' ').title()}: {nested_key.replace('_', ' ').title()}",
+                            "Value": _format_sub_value(nested_value),
+                        }
+                    )
+                continue
+            rows.append(
+                {
+                    "Category": label,
+                    "Sub-category": key.replace("_", " ").title(),
+                    "Value": _format_sub_value(value),
+                }
+            )
+    return rows
+
+
 st.set_page_config(page_title="Car Agent Rankings", layout="wide")
 st.title("Car Agent Rankings")
 
@@ -122,6 +162,11 @@ if selected:
         st.table(pd.DataFrame(breakdown_rows))
     else:
         st.info("No score breakdown available for this listing.")
+
+    subrows = build_component_subrows(breakdown)
+    if subrows:
+        st.markdown("**Sub-categories by Component**")
+        st.table(pd.DataFrame(subrows))
 
     details = breakdown.get("details", {})
     if details:
