@@ -48,6 +48,20 @@ def load_snapshot() -> dict:
     return json.loads(SNAPSHOT_FILE.read_text(encoding="utf-8"))
 
 
+def build_score_breakdown_rows(score_breakdown: dict) -> list[dict[str, str]]:
+    ordered_keys = ["family_fit", "quietness", "spec", "value", "penalties", "total"]
+    rows: list[dict[str, str]] = []
+    for key in ordered_keys:
+        if key not in score_breakdown:
+            continue
+        value = score_breakdown.get(key)
+        label = key.replace("_", " ").title()
+        if key == "total":
+            label = "Total Score"
+        rows.append({"Component": label, "Points": value})
+    return rows
+
+
 st.set_page_config(page_title="Car Agent Rankings", layout="wide")
 st.title("Car Agent Rankings")
 
@@ -102,4 +116,24 @@ if selected:
         st.link_button("Open Listing", selected["url"])
 
     st.subheader("Score Breakdown")
-    st.json(selected.get("score_breakdown", {}))
+    breakdown = selected.get("score_breakdown", {})
+    breakdown_rows = build_score_breakdown_rows(breakdown)
+    if breakdown_rows:
+        st.table(pd.DataFrame(breakdown_rows))
+    else:
+        st.info("No score breakdown available for this listing.")
+
+    details = breakdown.get("details", {})
+    if details:
+        st.subheader("Score Debug Details")
+        normalized = details.get("normalized", {})
+        if normalized:
+            st.markdown("**Normalized Scores**")
+            normalized_rows = [{"Metric": k.replace("_", " ").title(), "Value": v} for k, v in normalized.items()]
+            st.table(pd.DataFrame(normalized_rows))
+
+        penalties = details.get("penalties", {})
+        if penalties:
+            st.markdown("**Penalty Contributors**")
+            penalty_rows = [{"Penalty": k.replace("_", " ").title(), "Value": v} for k, v in penalties.items()]
+            st.table(pd.DataFrame(penalty_rows))
