@@ -6,6 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+from selection import extract_selected_rows, resolve_selected_row_index
 
 SNAPSHOT_FILE = Path(__file__).resolve().parent / "latest_snapshot.json"
 STALE_AFTER_HOURS = 36
@@ -148,48 +149,67 @@ def render_expandable_breakdown(score_breakdown: dict) -> None:
             else:
                 st.write("No sub-categories available.")
 
+def main() -> None:
+    st.set_page_config(page_title="Car Agent Rankings", layout="wide")
+    st.title("Car Agent Rankings")
 
-st.set_page_config(page_title="Car Agent Rankings", layout="wide")
-st.title("Car Agent Rankings")
+    snapshot = load_snapshot()
 
-snapshot = load_snapshot()
+    meta_cols = st.columns(3)
+    meta_cols[0].metric("Active listings", int(snapshot.get("total_active", 0)))
+    meta_cols[1].metric("Source run ID", snapshot.get("source_run_id") or "N/A")
+    meta_cols[2].metric("Generated at", snapshot.get("generated_at") or "N/A")
 
-meta_cols = st.columns(3)
-meta_cols[0].metric("Active listings", int(snapshot.get("total_active", 0)))
-meta_cols[1].metric("Source run ID", snapshot.get("source_run_id") or "N/A")
-meta_cols[2].metric("Generated at", snapshot.get("generated_at") or "N/A")
+    if is_stale(snapshot.get("generated_at", "")):
+        st.warning("Data may be stale (older than 36 hours).")
 
-if is_stale(snapshot.get("generated_at", "")):
-    st.warning("Data may be stale (older than 36 hours).")
+    cars = snapshot.get("cars", [])
+    if not cars:
+        st.info("No cars available in snapshot yet.")
+        st.stop()
 
-cars = snapshot.get("cars", [])
-if not cars:
-    st.info("No cars available in snapshot yet.")
-    st.stop()
+    df = pd.DataFrame(
+        [
+            {
+                "Model": car.get("model", "unknown"),
+                "Score": car.get("score", 0),
+                "Year": car.get("year"),
+                "Engine": car.get("engine", "unknown"),
+                "Price": format_price(car.get("price_sek")),
+                "Mileage": format_mileage(car.get("mileage_mil")),
+                "Link": car.get("url", ""),
+                "Listing ID": car.get("listing_id", ""),
+            }
+            for car in cars
+        ]
+    )
 
-df = pd.DataFrame(
-    [
-        {
-            "Model": car.get("model", "unknown"),
-            "Score": car.get("score", 0),
-            "Year": car.get("year"),
-            "Engine": car.get("engine", "unknown"),
-            "Price": format_price(car.get("price_sek")),
-            "Mileage": format_mileage(car.get("mileage_mil")),
-            "Link": car.get("url", ""),
-            "Listing ID": car.get("listing_id", ""),
-        }
-        for car in cars
-    ]
-)
+    st.subheader("Ranked Cars")
+    selection_event = st.dataframe(
+        df,
+        use_container_width=True,
+        hide_index=True,
+        key="ranked_cars_table",
+        on_select="rerun",
+        selection_mode="single-row",
+    )
 
-st.subheader("Ranked Cars")
-st.dataframe(df, use_container_width=True, hide_index=True)
+    selected_rows = extract_selected_rows(selection_event)
+    prior_index = st.session_state.get("selected_car_row_index")
+    if not isinstance(prior_index, int):
+        prior_index = None
 
-selected_id = st.selectbox("Select a car for rationale", [car.get("listing_id", "") for car in cars], index=0)
-selected = next((car for car in cars if car.get("listing_id", "") == selected_id), None)
+    selected_index = resolve_selected_row_index(
+        total_rows=len(cars),
+        selected_rows=selected_rows,
+        prior_index=prior_index,
+    )
+    if selected_index is None:
+        st.stop()
 
-if selected:
+    st.session_state["selected_car_row_index"] = selected_index
+    selected = cars[selected_index]
+
     st.markdown(f"### {selected.get('title') or selected.get('model', 'Car')} ({selected.get('listing_id')})")
     info_cols = st.columns(4)
     info_cols[0].write(f"**Model:** {selected.get('model', 'unknown')}")
@@ -223,3 +243,7 @@ if selected:
             st.markdown("**Penalty Contributors**")
             penalty_rows = [{"Penalty": k.replace("_", " ").title(), "Value": v} for k, v in penalties.items()]
             st.table(pd.DataFrame(penalty_rows))
+
+
+if __name__ == "__main__":
+    main()
