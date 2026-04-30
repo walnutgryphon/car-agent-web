@@ -6,7 +6,8 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from selection import extract_selected_rows, resolve_selected_row_index
+from selection import extract_selected_rows_from_aggrid, resolve_selected_row_index
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, JsCode
 
 SNAPSHOT_FILE = Path(__file__).resolve().parent / "latest_snapshot.json"
 STALE_AFTER_HOURS = 36
@@ -278,6 +279,7 @@ def main() -> None:
     df = pd.DataFrame(
         [
             {
+                "_row_index": index,
                 "Rank": index + 1,
                 "Model": car.get("model", "unknown"),
                 "Score": car.get("score", 0),
@@ -293,30 +295,57 @@ def main() -> None:
     )
 
     st.subheader("Ranked Cars")
-    selection_event = st.dataframe(
-        df,
-        use_container_width=True,
-        hide_index=True,
-        key="ranked_cars_table",
-        on_select="rerun",
-        selection_mode="single-row",
-        column_config={
-            "Rank": st.column_config.NumberColumn(width="small"),
-            "Score": st.column_config.NumberColumn(width="small"),
-            "Year": st.column_config.NumberColumn(width="small"),
-            "Link": st.column_config.LinkColumn("Link", display_text="Open"),
-        },
-    )
-
-    selected_rows = extract_selected_rows(selection_event)
     prior_index = st.session_state.get("selected_car_row_index")
     if not isinstance(prior_index, int):
         prior_index = None
+    preselected_index = resolve_selected_row_index(
+        total_rows=len(cars),
+        selected_rows=[],
+        prior_index=prior_index,
+    )
+
+    link_renderer = JsCode(
+        """
+        function(params) {
+            if (!params.value) {
+                return "";
+            }
+            return `<a href="${params.value}" target="_blank" rel="noopener noreferrer">Open</a>`;
+        }
+        """
+    )
+    gb = GridOptionsBuilder.from_dataframe(df)
+    gb.configure_default_column(sortable=True, filter=False, resizable=True)
+    gb.configure_selection(
+        selection_mode="single",
+        use_checkbox=False,
+        pre_selected_rows=[preselected_index] if preselected_index is not None else [],
+    )
+    gb.configure_column("_row_index", hide=True)
+    gb.configure_column("Rank", maxWidth=90)
+    gb.configure_column("Score", maxWidth=110)
+    gb.configure_column("Year", maxWidth=110)
+    gb.configure_column("Link", cellRenderer=link_renderer, minWidth=110, maxWidth=130)
+    grid_options = gb.build()
+    grid_options["suppressRowClickSelection"] = False
+
+    grid_response = AgGrid(
+        df,
+        gridOptions=grid_options,
+        update_mode=GridUpdateMode.SELECTION_CHANGED,
+        fit_columns_on_grid_load=True,
+        allow_unsafe_jscode=True,
+        theme="streamlit",
+        height=420,
+        key="ranked_cars_grid",
+    )
+
+    selected_rows = extract_selected_rows_from_aggrid(grid_response, index_key="_row_index")
 
     selected_index = resolve_selected_row_index(
         total_rows=len(cars),
         selected_rows=selected_rows,
-        prior_index=prior_index,
+        prior_index=preselected_index,
     )
     if selected_index is None:
         st.stop()

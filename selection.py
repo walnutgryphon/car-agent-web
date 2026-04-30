@@ -3,6 +3,28 @@ from __future__ import annotations
 from typing import Any
 
 
+def extract_selected_rows_from_aggrid(selection_event: Any, *, index_key: str = "_row_index") -> list[int]:
+    if not isinstance(selection_event, dict):
+        return []
+
+    selected_rows = selection_event.get("selected_rows")
+    if not isinstance(selected_rows, list):
+        return []
+
+    selected: list[int] = []
+    for row in selected_rows:
+        if not isinstance(row, dict):
+            continue
+        value = row.get(index_key)
+        try:
+            index = int(value)
+        except (TypeError, ValueError):
+            continue
+        if index >= 0:
+            selected.append(index)
+    return selected
+
+
 def extract_selected_rows(selection_event: Any) -> list[int]:
     if not selection_event:
         return []
