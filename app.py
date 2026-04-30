@@ -256,7 +256,6 @@ def main() -> None:
         """
         <div class="shade-card">
             <div class="shade-title">Car Agent Rankings</div>
-            <p class="shade-subtitle">ShadeUI style view with clickable ranked rows and transparent score rationale.</p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -325,6 +324,7 @@ def main() -> None:
     st.session_state["selected_car_row_index"] = selected_index
     selected = cars[selected_index]
 
+    st.subheader("Listing details")
     with st.container(border=True):
         st.markdown(f"### {selected.get('title') or selected.get('model', 'Car')} ({selected.get('listing_id')})")
         info_cols = st.columns(4)
