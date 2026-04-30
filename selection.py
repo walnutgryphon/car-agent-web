@@ -8,6 +8,18 @@ def extract_selected_rows_from_aggrid(selection_event: Any, *, index_key: str = 
         return []
 
     selected_rows = selection_event.get("selected_rows")
+    if hasattr(selected_rows, "to_dict"):
+        try:
+            selected_rows = selected_rows.to_dict(orient="records")
+        except TypeError:
+            selected_rows = selected_rows.to_dict()
+    if isinstance(selected_rows, dict):
+        selected_rows = [selected_rows]
+    if isinstance(selected_rows, tuple):
+        selected_rows = list(selected_rows)
+    if hasattr(selected_rows, "__iter__") and not isinstance(selected_rows, list):
+        selected_rows = list(selected_rows)
+
     if not isinstance(selected_rows, list):
         return []
 
@@ -15,13 +27,19 @@ def extract_selected_rows_from_aggrid(selection_event: Any, *, index_key: str = 
     for row in selected_rows:
         if not isinstance(row, dict):
             continue
-        value = row.get(index_key)
-        try:
-            index = int(value)
-        except (TypeError, ValueError):
-            continue
-        if index >= 0:
-            selected.append(index)
+        candidate_values: list[Any] = [row.get(index_key), row.get("rowIndex")]
+        node_info = row.get("_selectedRowNodeInfo")
+        if isinstance(node_info, dict):
+            candidate_values.append(node_info.get("nodeRowIndex"))
+
+        for value in candidate_values:
+            try:
+                index = int(value)
+            except (TypeError, ValueError):
+                continue
+            if index >= 0:
+                selected.append(index)
+                break
     return selected
 
 

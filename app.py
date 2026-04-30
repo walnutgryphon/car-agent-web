@@ -341,6 +341,19 @@ def main() -> None:
     )
 
     selected_rows = extract_selected_rows_from_aggrid(grid_response, index_key="_row_index")
+    if not selected_rows and isinstance(grid_response, dict):
+        selected_payload = grid_response.get("selected_rows")
+        if isinstance(selected_payload, pd.DataFrame):
+            selected_payload = selected_payload.to_dict(orient="records")
+        if isinstance(selected_payload, list) and selected_payload:
+            selected_id = selected_payload[0].get("Listing ID") if isinstance(selected_payload[0], dict) else None
+            if selected_id:
+                matched_index = next(
+                    (idx for idx, car in enumerate(cars) if str(car.get("listing_id", "")) == str(selected_id)),
+                    None,
+                )
+                if matched_index is not None:
+                    selected_rows = [matched_index]
 
     selected_index = resolve_selected_row_index(
         total_rows=len(cars),
