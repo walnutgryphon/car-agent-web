@@ -12,6 +12,94 @@ SNAPSHOT_FILE = Path(__file__).resolve().parent / "latest_snapshot.json"
 STALE_AFTER_HOURS = 36
 
 
+def apply_shadeui_theme() -> None:
+    st.markdown(
+        """
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+            :root {
+                --shade-bg: #f8fafc;
+                --shade-surface: #ffffff;
+                --shade-border: #e2e8f0;
+                --shade-muted: #64748b;
+                --shade-text: #0f172a;
+                --shade-accent: #111827;
+            }
+
+            html, body, [class*="css"]  {
+                font-family: "Manrope", sans-serif;
+                color: var(--shade-text);
+            }
+
+            .stApp {
+                background: radial-gradient(circle at top right, #eef2ff 0%, #f8fafc 40%, #f8fafc 100%);
+            }
+
+            .block-container {
+                padding-top: 2rem;
+                max-width: 1240px;
+            }
+
+            [data-testid="stMetric"] {
+                background: var(--shade-surface);
+                border: 1px solid var(--shade-border);
+                border-radius: 14px;
+                padding: 0.9rem 1rem;
+            }
+
+            [data-testid="stMetricLabel"] {
+                color: var(--shade-muted);
+                font-weight: 600;
+            }
+
+            [data-testid="stMetricValue"] {
+                color: var(--shade-accent);
+                font-weight: 700;
+            }
+
+            .shade-card {
+                background: var(--shade-surface);
+                border: 1px solid var(--shade-border);
+                border-radius: 14px;
+                padding: 0.95rem 1rem;
+            }
+
+            .shade-title {
+                font-size: 2.05rem;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+                margin-bottom: 0.35rem;
+            }
+
+            .shade-subtitle {
+                color: var(--shade-muted);
+                font-size: 0.98rem;
+                margin-bottom: 0;
+            }
+
+            [data-testid="stExpander"] {
+                border: 1px solid var(--shade-border);
+                border-radius: 12px;
+                background: var(--shade-surface);
+            }
+
+            [data-testid="stLinkButton"] a {
+                border-radius: 10px;
+                border: 1px solid var(--shade-border);
+                background: #ffffff;
+                color: var(--shade-text);
+            }
+
+            [data-testid="stAlert"] {
+                border-radius: 12px;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def parse_iso(value: str) -> datetime | None:
     if not value:
         return None
@@ -41,6 +129,14 @@ def format_mileage(value: int | None) -> str:
     if value is None:
         return "N/A"
     return f"{value:,} mil".replace(",", " ")
+
+
+def format_timestamp(value: str) -> str:
+    parsed = parse_iso(value)
+    if parsed is None:
+        return "N/A"
+    local = parsed.astimezone()
+    return local.strftime("%Y-%m-%d %H:%M")
 
 
 def load_snapshot() -> dict:
@@ -151,16 +247,28 @@ def render_expandable_breakdown(score_breakdown: dict) -> None:
 
 def main() -> None:
     st.set_page_config(page_title="Car Agent Rankings", layout="wide")
-    st.title("Car Agent Rankings")
+    apply_shadeui_theme()
 
     snapshot = load_snapshot()
+    generated_at = snapshot.get("generated_at") or ""
+
+    st.markdown(
+        """
+        <div class="shade-card">
+            <div class="shade-title">Car Agent Rankings</div>
+            <p class="shade-subtitle">ShadeUI style view with clickable ranked rows and transparent score rationale.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.write("")
 
     meta_cols = st.columns(3)
     meta_cols[0].metric("Active listings", int(snapshot.get("total_active", 0)))
     meta_cols[1].metric("Source run ID", snapshot.get("source_run_id") or "N/A")
-    meta_cols[2].metric("Generated at", snapshot.get("generated_at") or "N/A")
+    meta_cols[2].metric("Generated at", format_timestamp(generated_at))
 
-    if is_stale(snapshot.get("generated_at", "")):
+    if is_stale(generated_at):
         st.warning("Data may be stale (older than 36 hours).")
 
     cars = snapshot.get("cars", [])
@@ -171,6 +279,7 @@ def main() -> None:
     df = pd.DataFrame(
         [
             {
+                "Rank": index + 1,
                 "Model": car.get("model", "unknown"),
                 "Score": car.get("score", 0),
                 "Year": car.get("year"),
@@ -180,7 +289,7 @@ def main() -> None:
                 "Link": car.get("url", ""),
                 "Listing ID": car.get("listing_id", ""),
             }
-            for car in cars
+            for index, car in enumerate(cars)
         ]
     )
 
@@ -192,6 +301,12 @@ def main() -> None:
         key="ranked_cars_table",
         on_select="rerun",
         selection_mode="single-row",
+        column_config={
+            "Rank": st.column_config.NumberColumn(width="small"),
+            "Score": st.column_config.NumberColumn(width="small"),
+            "Year": st.column_config.NumberColumn(width="small"),
+            "Link": st.column_config.LinkColumn("Link", display_text="Open"),
+        },
     )
 
     selected_rows = extract_selected_rows(selection_event)
