@@ -325,39 +325,25 @@ def main() -> None:
     st.session_state["selected_car_row_index"] = selected_index
     selected = cars[selected_index]
 
-    st.markdown(f"### {selected.get('title') or selected.get('model', 'Car')} ({selected.get('listing_id')})")
-    info_cols = st.columns(4)
-    info_cols[0].write(f"**Model:** {selected.get('model', 'unknown')}")
-    info_cols[1].write(f"**Year:** {selected.get('year', 'N/A')}")
-    info_cols[2].write(f"**Engine:** {selected.get('engine', 'unknown')}")
-    info_cols[3].write(f"**Score:** {selected.get('score', 0)}")
+    with st.container(border=True):
+        st.markdown(f"### {selected.get('title') or selected.get('model', 'Car')} ({selected.get('listing_id')})")
+        info_cols = st.columns(4)
+        info_cols[0].write(f"**Model:** {selected.get('model', 'unknown')}")
+        info_cols[1].write(f"**Year:** {selected.get('year', 'N/A')}")
+        info_cols[2].write(f"**Engine:** {selected.get('engine', 'unknown')}")
+        info_cols[3].write(f"**Score:** {selected.get('score', 0)}")
 
-    st.write(f"**Price:** {format_price(selected.get('price_sek'))}")
-    st.write(f"**Mileage:** {format_mileage(selected.get('mileage_mil'))}")
-    if selected.get("url"):
-        st.link_button("Open Listing", selected["url"])
+        st.write(f"**Price:** {format_price(selected.get('price_sek'))}")
+        st.write(f"**Mileage:** {format_mileage(selected.get('mileage_mil'))}")
+        if selected.get("url"):
+            st.link_button("Open Listing", selected["url"])
 
-    st.subheader("Score Breakdown")
-    breakdown = selected.get("score_breakdown", {})
-    if build_score_breakdown_rows(breakdown):
-        render_expandable_breakdown(breakdown)
-    else:
-        st.info("No score breakdown available for this listing.")
-
-    details = breakdown.get("details", {})
-    if details:
-        st.subheader("Score Debug Details")
-        normalized = details.get("normalized", {})
-        if normalized:
-            st.markdown("**Normalized Scores**")
-            normalized_rows = [{"Metric": k.replace("_", " ").title(), "Value": v} for k, v in normalized.items()]
-            st.table(pd.DataFrame(normalized_rows))
-
-        penalties = details.get("penalties", {})
-        if penalties:
-            st.markdown("**Penalty Contributors**")
-            penalty_rows = [{"Penalty": k.replace("_", " ").title(), "Value": v} for k, v in penalties.items()]
-            st.table(pd.DataFrame(penalty_rows))
+        st.subheader("Score Breakdown")
+        breakdown = selected.get("score_breakdown", {})
+        if build_score_breakdown_rows(breakdown):
+            render_expandable_breakdown(breakdown)
+        else:
+            st.info("No score breakdown available for this listing.")
 
 
 if __name__ == "__main__":
