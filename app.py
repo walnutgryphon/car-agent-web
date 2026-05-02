@@ -145,6 +145,13 @@ def format_timestamp(value: str) -> str:
     return local.strftime("%Y-%m-%d %H:%M")
 
 
+def format_date(value: str) -> str:
+    parsed = parse_iso(value)
+    if parsed is None:
+        return "N/A"
+    return parsed.astimezone().strftime("%Y-%m-%d")
+
+
 def load_snapshot() -> dict:
     if not SNAPSHOT_FILE.exists():
         return {"generated_at": "", "source_run_id": None, "total_active": 0, "cars": []}
@@ -251,6 +258,13 @@ def render_expandable_breakdown(score_breakdown: dict) -> None:
             else:
                 st.write("No sub-categories available.")
 
+
+def highlight_new_rows(row: pd.Series) -> list[str]:
+    if row.get("New") != "New":
+        return [""] * len(row)
+    return ["background-color: #ecfdf5; font-weight: 600;" for _ in row]
+
+
 def main() -> None:
     st.set_page_config(page_title="Car Agent Rankings", layout="wide")
     apply_shadeui_theme()
@@ -268,15 +282,18 @@ def main() -> None:
     )
     st.write("")
 
-    meta_cols = st.columns(3)
+    cars = snapshot.get("cars", [])
+    new_count = sum(1 for car in cars if car.get("is_new_since_last_scan"))
+
+    meta_cols = st.columns(4)
     meta_cols[0].metric("Active listings", int(snapshot.get("total_active", 0)))
     meta_cols[1].metric("Source run ID", snapshot.get("source_run_id") or "N/A")
-    meta_cols[2].metric("Generated at", format_timestamp(generated_at))
+    meta_cols[2].metric("New this scan", new_count)
+    meta_cols[3].metric("Generated at", format_timestamp(generated_at))
 
     if is_stale(generated_at):
         st.warning("Data may be stale (older than 36 hours).")
 
-    cars = snapshot.get("cars", [])
     if not cars:
         st.info("No cars available in snapshot yet.")
         st.stop()
@@ -291,16 +308,19 @@ def main() -> None:
                 "Engine": car.get("engine", "unknown"),
                 "Price": format_price(car.get("price_sek")),
                 "Mileage": format_mileage(car.get("mileage_mil")),
+                "Date advertised": format_date(car.get("advertised_at") or car.get("first_seen_at") or ""),
+                "New": "New" if car.get("is_new_since_last_scan") else "",
                 "Link": car.get("url", ""),
                 "Listing ID": car.get("listing_id", ""),
             }
             for index, car in enumerate(cars)
         ]
     )
+    styled_df = df.style.apply(highlight_new_rows, axis=1)
 
     st.subheader("Ranked Cars")
     selection_event = st.dataframe(
-        df,
+        styled_df,
         use_container_width=True,
         hide_index=True,
         key="ranked_cars_table",
@@ -310,6 +330,7 @@ def main() -> None:
             "Rank": st.column_config.NumberColumn(width="small"),
             "Score": st.column_config.NumberColumn(width="small"),
             "Year": st.column_config.NumberColumn(width="small"),
+            "New": st.column_config.TextColumn(width="small"),
             "Link": st.column_config.LinkColumn("Link", display_text="Open"),
         },
     )
@@ -341,6 +362,9 @@ def main() -> None:
 
         st.write(f"**Price:** {format_price(selected.get('price_sek'))}")
         st.write(f"**Mileage:** {format_mileage(selected.get('mileage_mil'))}")
+        st.write(f"**Date advertised:** {format_date(selected.get('advertised_at') or selected.get('first_seen_at') or '')}")
+        if selected.get("is_new_since_last_scan"):
+            st.success("New since the last scan.")
         if selected.get("url"):
             st.link_button("Open Listing", selected["url"])
 
