@@ -6,7 +6,7 @@
       "first_seen_at": "2026-05-01T09:43:03.564066+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:37.634216+00:00",
+      "last_seen_at": "2026-05-05T07:56:06.041499+00:00",
       "listing_id": "22824624",
       "mileage_mil": 3562,
       "model": "xc60",
@@ -107,7 +107,7 @@
       "first_seen_at": "2026-05-01T09:43:06.149662+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:40.098589+00:00",
+      "last_seen_at": "2026-05-05T07:56:08.485644+00:00",
       "listing_id": "22826082",
       "mileage_mil": 4267,
       "model": "xc60",
@@ -209,12 +209,109 @@
       "year": 2024
     },
     {
+      "advertised_at": "2026-04-23T19:46:16.531094+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-04-23T19:46:16.531094+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": false,
+      "last_seen_at": "2026-05-05T07:55:09.346132+00:00",
+      "listing_id": "21046839",
+      "mileage_mil": 5679,
+      "model": "v90",
+      "price_sek": 394500,
+      "score": 69,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.518,
+              "raw_total": 7.518,
+              "weighted_points": -0.376
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 66.667,
+              "raw_total": 10.0,
+              "smaller_wheels": 2.0,
+              "weighted_points": 13.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {},
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 424869,
+              "normalized_score": 57.313,
+              "value_ratio": 1.077,
+              "weighted_points": 11.463
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 100.0,
+            "penalties_raw": 7.5,
+            "quietness": 66.7,
+            "spec": 47.1,
+            "value": 57.3
+          },
+          "penalties": {
+            "core_trim_penalty": 5.0,
+            "mileage_over_ideal": 2.518
+          },
+          "value": {
+            "expected_price_sek": 424869,
+            "value_ratio": 1.077
+          }
+        },
+        "family_fit": 35.0,
+        "penalties": -0.4,
+        "quietness": 13.3,
+        "spec": 9.4,
+        "total": 69,
+        "value": 11.5
+      },
+      "title": "Volvo V90",
+      "url": "https://www.blocket.se/mobility/item/21046839",
+      "year": 2023
+    },
+    {
       "advertised_at": "2026-04-30T07:02:38.739309+00:00",
       "engine": "T6",
       "first_seen_at": "2026-04-30T07:02:38.739309+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:35.973973+00:00",
+      "last_seen_at": "2026-05-05T07:55:16.733428+00:00",
       "listing_id": "21981947",
       "mileage_mil": 5242,
       "model": "xc60",
@@ -320,7 +417,7 @@
       "first_seen_at": "2026-05-01T09:40:34.282375+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:25.496398+00:00",
+      "last_seen_at": "2026-05-05T07:55:56.275618+00:00",
       "listing_id": "22814477",
       "mileage_mil": 5405,
       "model": "v90",
@@ -411,16 +508,16 @@
       "year": 2023
     },
     {
-      "advertised_at": "2026-04-28T07:39:39.085415+00:00",
+      "advertised_at": "2026-05-05T07:56:33.022611+00:00",
       "engine": "T6",
-      "first_seen_at": "2026-04-28T07:39:39.085415+00:00",
+      "first_seen_at": "2026-05-05T07:56:33.022611+00:00",
       "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:07.922408+00:00",
-      "listing_id": "22761861",
-      "mileage_mil": 5853,
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:56:33.022611+00:00",
+      "listing_id": "22963179",
+      "mileage_mil": 5598,
       "model": "xc60",
-      "price_sek": 549900,
+      "price_sek": 539900,
       "score": 68,
       "score_breakdown": {
         "details": {
@@ -437,51 +534,51 @@
               "weighted_points": 32.667
             },
             "penalties": {
-              "mileage_over_ideal": 2.78,
-              "raw_total": 6.78,
+              "mileage_over_ideal": 2.397,
+              "raw_total": 6.397,
               "value_sensitive_high_price": 4.0,
-              "weighted_points": -0.339
+              "weighted_points": -0.32
             },
             "quietness": {
               "acoustic_glass": 8.0,
-              "harman_kardon": 1.0,
-              "normalized_score": 60.0,
+              "normalized_score": 53.333,
               "panoramic_roof": 0.0,
-              "raw_total": 9.0,
-              "weighted_points": 12.0
+              "raw_total": 8.0,
+              "weighted_points": 10.667
             },
             "spec": {
               "engine_adjustment_applied": "t6_recharge_bonus",
               "engine_adjustment_raw": 0.5,
               "feature_points": {
                 "adaptive_cruise": 1.0,
+                "blis": 1.0,
                 "camera_360": 4.0,
                 "comfort_seats": 1.0,
                 "driver_assistance": 2.0,
                 "driver_awareness": 2.0,
                 "electric_front_seats": 2.0,
-                "harman_kardon": 1.0,
                 "heated_rear_seats": 2.0,
                 "heated_steering_wheel": 2.0,
                 "leather_seats": 1.0,
                 "panoramic_roof": 1.0,
                 "pilot_assist": 2.0,
                 "rear_camera": 2.0,
+                "tinted_windows": 2.0,
                 "towbar": 2.0
               },
-              "normalized_score": 78.571,
-              "raw_total": 27.5,
+              "normalized_score": 84.286,
+              "raw_total": 29.5,
               "trim_points": {
                 "dark_trim": 0.0,
-                "ultimate_trim": 2.0
+                "plus_trim": 2.0
               },
-              "weighted_points": 15.714
+              "weighted_points": 16.857
             },
             "value": {
-              "expected_price_sek": 494275,
-              "normalized_score": 40.39,
-              "value_ratio": 0.899,
-              "weighted_points": 8.078
+              "expected_price_sek": 498410,
+              "normalized_score": 42.699,
+              "value_ratio": 0.923,
+              "weighted_points": 8.54
             }
           },
           "engine_adjustment": {
@@ -491,30 +588,124 @@
           "normalized": {
             "engine_adjustment_raw": 0.5,
             "family_fit": 93.3,
-            "penalties_raw": 6.8,
-            "quietness": 60.0,
-            "spec": 78.6,
-            "value": 40.4
+            "penalties_raw": 6.4,
+            "quietness": 53.3,
+            "spec": 84.3,
+            "value": 42.7
           },
           "penalties": {
-            "mileage_over_ideal": 2.78,
+            "mileage_over_ideal": 2.397,
             "value_sensitive_high_price": 4.0
           },
           "value": {
-            "expected_price_sek": 494275,
-            "value_ratio": 0.899
+            "expected_price_sek": 498410,
+            "value_ratio": 0.923
           }
         },
         "family_fit": 32.7,
         "penalties": -0.3,
-        "quietness": 12.0,
-        "spec": 15.7,
+        "quietness": 10.7,
+        "spec": 16.9,
         "total": 68,
-        "value": 8.1
+        "value": 8.5
       },
       "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22761861",
+      "url": "https://www.blocket.se/mobility/item/22963179",
       "year": 2024
+    },
+    {
+      "advertised_at": "2026-05-05T07:54:57.035414+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-05-05T07:54:57.035414+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:54:57.035414+00:00",
+      "listing_id": "20956965",
+      "mileage_mil": 3973,
+      "model": "v90",
+      "price_sek": 429900,
+      "score": 67,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "acoustic_glass": 8.0,
+              "normalized_score": 53.333,
+              "raw_total": 8.0,
+              "weighted_points": 10.667
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 44.286,
+              "raw_total": 15.5,
+              "trim_points": {},
+              "weighted_points": 8.857
+            },
+            "value": {
+              "expected_price_sek": 484395,
+              "normalized_score": 62.042,
+              "value_ratio": 1.127,
+              "weighted_points": 12.408
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 100.0,
+            "penalties_raw": 5.0,
+            "quietness": 53.3,
+            "spec": 44.3,
+            "value": 62.0
+          },
+          "penalties": {
+            "core_trim_penalty": 5.0
+          },
+          "value": {
+            "expected_price_sek": 484395,
+            "value_ratio": 1.127
+          }
+        },
+        "family_fit": 35.0,
+        "penalties": -0.2,
+        "quietness": 10.7,
+        "spec": 8.9,
+        "total": 67,
+        "value": 12.4
+      },
+      "title": "Volvo V90",
+      "url": "https://www.blocket.se/mobility/item/20956965",
+      "year": 2025
     },
     {
       "advertised_at": "2026-05-01T09:41:50.031342+00:00",
@@ -522,7 +713,7 @@
       "first_seen_at": "2026-05-01T09:41:50.031342+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:55.724132+00:00",
+      "last_seen_at": "2026-05-05T07:55:36.466090+00:00",
       "listing_id": "22486088",
       "mileage_mil": 5487,
       "model": "xc60",
@@ -621,118 +812,12 @@
       "year": 2023
     },
     {
-      "advertised_at": "2026-05-01T09:40:39.140443+00:00",
-      "engine": "T8",
-      "first_seen_at": "2026-05-01T09:40:39.140443+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:49.854466+00:00",
-      "listing_id": "22830907",
-      "mileage_mil": 1157,
-      "model": "v90",
-      "price_sek": 549800,
-      "score": 67,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 18.0,
-              "family_space_bonus": 5.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 100.0,
-              "powertrain_bonus": 8.0,
-              "raw_total": 33.0,
-              "rough_road_bonus": 0.0,
-              "rough_road_penalty": -3.0,
-              "weighted_points": 35.0
-            },
-            "penalties": {
-              "raw_total": 0,
-              "weighted_points": -0.0
-            },
-            "quietness": {
-              "bowers_wilkins": 2.0,
-              "harman_kardon": 1.0,
-              "normalized_score": 20.0,
-              "panoramic_roof": 0.0,
-              "raw_total": 3.0,
-              "weighted_points": 4.0
-            },
-            "spec": {
-              "engine_adjustment_applied": "t8_recharge_bonus",
-              "engine_adjustment_raw": 1.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "air_suspension": 1.0,
-                "blis": 1.0,
-                "bowers_wilkins": 2.0,
-                "camera_360": 4.0,
-                "comfort_seats": 1.0,
-                "driver_assistance": 2.0,
-                "driver_awareness": 2.0,
-                "electric_front_seats": 2.0,
-                "harman_kardon": 1.0,
-                "heated_rear_seats": 2.0,
-                "heated_steering_wheel": 2.0,
-                "leather_seats": 1.0,
-                "panoramic_roof": 1.0,
-                "pilot_assist": 2.0,
-                "rear_camera": 2.0,
-                "sun_curtains": 2.0,
-                "tinted_windows": 2.0,
-                "towbar": 2.0
-              },
-              "normalized_score": 100.0,
-              "raw_total": 36.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "ultimate_trim": 2.0
-              },
-              "weighted_points": 20.0
-            },
-            "value": {
-              "expected_price_sek": 489335,
-              "normalized_score": 39.552,
-              "value_ratio": 0.89,
-              "weighted_points": 7.91
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t8_recharge_bonus",
-            "points": 1.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 1.5,
-            "family_fit": 100.0,
-            "penalties_raw": 0,
-            "quietness": 20.0,
-            "spec": 100.0,
-            "value": 39.6
-          },
-          "penalties": {},
-          "value": {
-            "expected_price_sek": 489335,
-            "value_ratio": 0.89
-          }
-        },
-        "family_fit": 35.0,
-        "penalties": -0.0,
-        "quietness": 4.0,
-        "spec": 20.0,
-        "total": 67,
-        "value": 7.9
-      },
-      "title": "Volvo V90",
-      "url": "https://www.blocket.se/mobility/item/22830907",
-      "year": 2024
-    },
-    {
       "advertised_at": "2026-05-01T09:42:41.514919+00:00",
       "engine": "T6",
       "first_seen_at": "2026-05-01T09:42:41.514919+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:20.522986+00:00",
+      "last_seen_at": "2026-05-05T07:55:51.343187+00:00",
       "listing_id": "22798513",
       "mileage_mil": 3697,
       "model": "xc60",
@@ -835,7 +920,7 @@
       "first_seen_at": "2026-05-01T09:43:11.105142+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:44.986575+00:00",
+      "last_seen_at": "2026-05-05T07:56:13.380729+00:00",
       "listing_id": "22826173",
       "mileage_mil": 4453,
       "model": "xc60",
@@ -938,7 +1023,7 @@
       "first_seen_at": "2026-04-23T19:45:35.117318+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T08:59:53.796261+00:00",
+      "last_seen_at": "2026-05-05T07:54:32.402627+00:00",
       "listing_id": "18269829",
       "mileage_mil": 3200,
       "model": "v90",
@@ -1029,7 +1114,7 @@
       "first_seen_at": "2026-05-01T11:40:28.216026+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:00.722579+00:00",
+      "last_seen_at": "2026-05-05T07:55:41.387486+00:00",
       "listing_id": "22631770",
       "mileage_mil": 1533,
       "model": "v90",
@@ -1124,12 +1209,111 @@
       "year": 2026
     },
     {
+      "advertised_at": "2026-05-05T07:56:30.577061+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-05-05T07:56:30.577061+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:56:30.577061+00:00",
+      "listing_id": "22961196",
+      "mileage_mil": 2997,
+      "model": "v90",
+      "price_sek": 519900,
+      "score": 62,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "raw_total": 0,
+              "weighted_points": -0.0
+            },
+            "quietness": {
+              "harman_kardon": 1.0,
+              "normalized_score": 6.667,
+              "raw_total": 1.0,
+              "weighted_points": 1.333
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "harman_kardon": 1.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 78.571,
+              "raw_total": 27.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 15.714
+            },
+            "value": {
+              "expected_price_sek": 517455,
+              "normalized_score": 49.553,
+              "value_ratio": 0.995,
+              "weighted_points": 9.911
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 100.0,
+            "penalties_raw": 0,
+            "quietness": 6.7,
+            "spec": 78.6,
+            "value": 49.6
+          },
+          "penalties": {},
+          "value": {
+            "expected_price_sek": 517455,
+            "value_ratio": 0.995
+          }
+        },
+        "family_fit": 35.0,
+        "penalties": -0.0,
+        "quietness": 1.3,
+        "spec": 15.7,
+        "total": 62,
+        "value": 9.9
+      },
+      "title": "Volvo V90",
+      "url": "https://www.blocket.se/mobility/item/22961196",
+      "year": 2026
+    },
+    {
       "advertised_at": "2026-05-01T17:27:20.250344+00:00",
       "engine": "T6",
       "first_seen_at": "2026-05-01T17:27:20.250344+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T08:59:56.308195+00:00",
+      "last_seen_at": "2026-05-05T07:54:37.366292+00:00",
       "listing_id": "20605987",
       "mileage_mil": 2350,
       "model": "v90",
@@ -1227,7 +1411,7 @@
       "first_seen_at": "2026-05-01T17:27:42.489041+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:18.570500+00:00",
+      "last_seen_at": "2026-05-05T07:54:54.603811+00:00",
       "listing_id": "20921393",
       "mileage_mil": 2361,
       "model": "v90",
@@ -1325,7 +1509,7 @@
       "first_seen_at": "2026-05-01T17:27:52.470939+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:28.474072+00:00",
+      "last_seen_at": "2026-05-05T07:55:04.437728+00:00",
       "listing_id": "20997344",
       "mileage_mil": 1736,
       "model": "v90",
@@ -1418,306 +1602,12 @@
       "year": 2026
     },
     {
-      "advertised_at": "2026-04-28T07:39:43.912713+00:00",
-      "engine": "T8",
-      "first_seen_at": "2026-04-28T07:39:43.912713+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:10.492485+00:00",
-      "listing_id": "22762430",
-      "mileage_mil": 5863,
-      "model": "xc60",
-      "price_sek": 534700,
-      "score": 60,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 10.0,
-              "family_space_bonus": 0.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 93.333,
-              "powertrain_bonus": 8.0,
-              "raw_total": 28.0,
-              "rough_road_bonus": 5.0,
-              "rough_road_penalty": 0.0,
-              "weighted_points": 32.667
-            },
-            "penalties": {
-              "mileage_over_ideal": 2.795,
-              "raw_total": 6.795,
-              "value_sensitive_high_price": 4.0,
-              "weighted_points": -0.34
-            },
-            "quietness": {
-              "acoustic_glass": 8.0,
-              "bowers_wilkins": 2.0,
-              "normalized_score": 66.667,
-              "panoramic_roof": 0.0,
-              "raw_total": 10.0,
-              "weighted_points": 13.333
-            },
-            "spec": {
-              "engine_adjustment_applied": "t8_recharge_bonus",
-              "engine_adjustment_raw": 1.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "bowers_wilkins": 2.0,
-                "heated_steering_wheel": 2.0,
-                "leather_seats": 1.0,
-                "panoramic_roof": 1.0
-              },
-              "normalized_score": 32.857,
-              "raw_total": 11.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "ultimate_trim": 2.0
-              },
-              "weighted_points": 6.571
-            },
-            "value": {
-              "expected_price_sek": 475108,
-              "normalized_score": 39.412,
-              "value_ratio": 0.889,
-              "weighted_points": 7.882
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t8_recharge_bonus",
-            "points": 1.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 1.5,
-            "family_fit": 93.3,
-            "penalties_raw": 6.8,
-            "quietness": 66.7,
-            "spec": 32.9,
-            "value": 39.4
-          },
-          "penalties": {
-            "mileage_over_ideal": 2.795,
-            "value_sensitive_high_price": 4.0
-          },
-          "value": {
-            "expected_price_sek": 475108,
-            "value_ratio": 0.889
-          }
-        },
-        "family_fit": 32.7,
-        "penalties": -0.3,
-        "quietness": 13.3,
-        "spec": 6.6,
-        "total": 60,
-        "value": 7.9
-      },
-      "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22762430",
-      "year": 2023
-    },
-    {
-      "advertised_at": "2026-05-01T11:39:31.713876+00:00",
-      "engine": "T6",
-      "first_seen_at": "2026-05-01T11:39:31.713876+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T08:59:58.859131+00:00",
-      "listing_id": "20626961",
-      "mileage_mil": 2007,
-      "model": "v90",
-      "price_sek": 539900,
-      "score": 60,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 18.0,
-              "family_space_bonus": 5.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 100.0,
-              "powertrain_bonus": 8.0,
-              "raw_total": 33.0,
-              "rough_road_bonus": 0.0,
-              "rough_road_penalty": -3.0,
-              "weighted_points": 35.0
-            },
-            "penalties": {
-              "raw_total": 0,
-              "weighted_points": -0.0
-            },
-            "quietness": {
-              "harman_kardon": 1.0,
-              "normalized_score": 6.667,
-              "raw_total": 1.0,
-              "weighted_points": 1.333
-            },
-            "spec": {
-              "engine_adjustment_applied": "t6_recharge_bonus",
-              "engine_adjustment_raw": 0.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "camera_360": 4.0,
-                "comfort_seats": 1.0,
-                "driver_assistance": 2.0,
-                "driver_awareness": 2.0,
-                "electric_front_seats": 2.0,
-                "harman_kardon": 1.0,
-                "heated_rear_seats": 2.0,
-                "heated_steering_wheel": 2.0,
-                "leather_seats": 1.0,
-                "pilot_assist": 2.0,
-                "rear_camera": 2.0
-              },
-              "normalized_score": 72.857,
-              "raw_total": 25.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "plus_trim": 2.0
-              },
-              "weighted_points": 14.571
-            },
-            "value": {
-              "expected_price_sek": 522578,
-              "normalized_score": 46.952,
-              "value_ratio": 0.968,
-              "weighted_points": 9.39
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t6_recharge_bonus",
-            "points": 0.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 0.5,
-            "family_fit": 100.0,
-            "penalties_raw": 0,
-            "quietness": 6.7,
-            "spec": 72.9,
-            "value": 47.0
-          },
-          "penalties": {},
-          "value": {
-            "expected_price_sek": 522578,
-            "value_ratio": 0.968
-          }
-        },
-        "family_fit": 35.0,
-        "penalties": -0.0,
-        "quietness": 1.3,
-        "spec": 14.6,
-        "total": 60,
-        "value": 9.4
-      },
-      "title": "Volvo V90",
-      "url": "https://www.blocket.se/mobility/item/20626961",
-      "year": 2026
-    },
-    {
-      "advertised_at": "2026-05-01T11:39:34.075984+00:00",
-      "engine": "T6",
-      "first_seen_at": "2026-05-01T11:39:34.075984+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:01.293101+00:00",
-      "listing_id": "20642300",
-      "mileage_mil": 2309,
-      "model": "v90",
-      "price_sek": 539900,
-      "score": 60,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 18.0,
-              "family_space_bonus": 5.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 100.0,
-              "powertrain_bonus": 8.0,
-              "raw_total": 33.0,
-              "rough_road_bonus": 0.0,
-              "rough_road_penalty": -3.0,
-              "weighted_points": 35.0
-            },
-            "penalties": {
-              "raw_total": 0,
-              "weighted_points": -0.0
-            },
-            "quietness": {
-              "harman_kardon": 1.0,
-              "normalized_score": 6.667,
-              "raw_total": 1.0,
-              "weighted_points": 1.333
-            },
-            "spec": {
-              "engine_adjustment_applied": "t6_recharge_bonus",
-              "engine_adjustment_raw": 0.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "camera_360": 4.0,
-                "comfort_seats": 1.0,
-                "driver_assistance": 2.0,
-                "driver_awareness": 2.0,
-                "electric_front_seats": 2.0,
-                "harman_kardon": 1.0,
-                "heated_rear_seats": 2.0,
-                "heated_steering_wheel": 2.0,
-                "leather_seats": 1.0,
-                "pilot_assist": 2.0,
-                "rear_camera": 2.0
-              },
-              "normalized_score": 72.857,
-              "raw_total": 25.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "plus_trim": 2.0
-              },
-              "weighted_points": 14.571
-            },
-            "value": {
-              "expected_price_sek": 521015,
-              "normalized_score": 46.677,
-              "value_ratio": 0.965,
-              "weighted_points": 9.335
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t6_recharge_bonus",
-            "points": 0.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 0.5,
-            "family_fit": 100.0,
-            "penalties_raw": 0,
-            "quietness": 6.7,
-            "spec": 72.9,
-            "value": 46.7
-          },
-          "penalties": {},
-          "value": {
-            "expected_price_sek": 521015,
-            "value_ratio": 0.965
-          }
-        },
-        "family_fit": 35.0,
-        "penalties": -0.0,
-        "quietness": 1.3,
-        "spec": 14.6,
-        "total": 60,
-        "value": 9.3
-      },
-      "title": "Volvo V90",
-      "url": "https://www.blocket.se/mobility/item/20642300",
-      "year": 2026
-    },
-    {
       "advertised_at": "2026-05-01T17:27:27.628765+00:00",
       "engine": "T6",
       "first_seen_at": "2026-05-01T17:27:27.628765+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:03.709880+00:00",
+      "last_seen_at": "2026-05-05T07:54:39.824228+00:00",
       "listing_id": "20764112",
       "mileage_mil": 1844,
       "model": "v90",
@@ -1815,7 +1705,7 @@
       "first_seen_at": "2026-05-01T17:27:30.029578+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:06.217843+00:00",
+      "last_seen_at": "2026-05-05T07:54:42.294980+00:00",
       "listing_id": "20764115",
       "mileage_mil": 1785,
       "model": "v90",
@@ -1913,7 +1803,7 @@
       "first_seen_at": "2026-05-01T17:27:32.730855+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:08.664592+00:00",
+      "last_seen_at": "2026-05-05T07:54:44.763977+00:00",
       "listing_id": "20791644",
       "mileage_mil": 1748,
       "model": "v90",
@@ -2011,7 +1901,7 @@
       "first_seen_at": "2026-05-01T17:27:35.180204+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:11.189412+00:00",
+      "last_seen_at": "2026-05-05T07:54:47.220229+00:00",
       "listing_id": "20803654",
       "mileage_mil": 1964,
       "model": "v90",
@@ -2109,7 +1999,7 @@
       "first_seen_at": "2026-05-01T17:27:37.604315+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:13.629774+00:00",
+      "last_seen_at": "2026-05-05T07:54:49.699145+00:00",
       "listing_id": "20803656",
       "mileage_mil": 1754,
       "model": "v90",
@@ -2207,7 +2097,7 @@
       "first_seen_at": "2026-05-01T17:27:40.029741+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:16.013898+00:00",
+      "last_seen_at": "2026-05-05T07:54:52.153902+00:00",
       "listing_id": "20915742",
       "mileage_mil": 1950,
       "model": "v90",
@@ -2305,7 +2195,7 @@
       "first_seen_at": "2026-05-01T17:27:50.032369+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:25.968542+00:00",
+      "last_seen_at": "2026-05-05T07:55:01.959078+00:00",
       "listing_id": "20997335",
       "mileage_mil": 2070,
       "model": "v90",
@@ -2403,7 +2293,7 @@
       "first_seen_at": "2026-04-23T19:49:09.904378+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:58.278134+00:00",
+      "last_seen_at": "2026-05-05T07:55:38.897095+00:00",
       "listing_id": "22567924",
       "mileage_mil": 4205,
       "model": "xc60",
@@ -2501,7 +2391,7 @@
       "first_seen_at": "2026-05-01T09:41:10.783523+00:00",
       "fuel_type": "diesel",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:27.968693+00:00",
+      "last_seen_at": "2026-05-05T07:55:58.700711+00:00",
       "listing_id": "22816094",
       "mileage_mil": 2007,
       "model": "v90",
@@ -2596,7 +2486,7 @@
       "first_seen_at": "2026-05-01T09:42:39.095238+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:18.098697+00:00",
+      "last_seen_at": "2026-05-05T07:55:48.897154+00:00",
       "listing_id": "22798506",
       "mileage_mil": 3109,
       "model": "xc60",
@@ -2693,7 +2583,7 @@
       "first_seen_at": "2026-05-01T09:43:08.547871+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:42.492009+00:00",
+      "last_seen_at": "2026-05-05T07:56:10.952373+00:00",
       "listing_id": "22826089",
       "mileage_mil": 5258,
       "model": "xc60",
@@ -2793,7 +2683,7 @@
       "first_seen_at": "2026-05-01T11:40:59.945978+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:22.940681+00:00",
+      "last_seen_at": "2026-05-05T07:55:53.823195+00:00",
       "listing_id": "22808122",
       "mileage_mil": 5496,
       "model": "xc60",
@@ -2886,12 +2776,300 @@
       "year": 2025
     },
     {
+      "advertised_at": "2026-05-05T07:56:23.205172+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-05-05T07:56:23.205172+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:56:23.205172+00:00",
+      "listing_id": "22937115",
+      "mileage_mil": 2959,
+      "model": "xc60",
+      "price_sek": 489800,
+      "score": 55,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "adaptive_cruise": 1.0,
+                "blis": 1.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "pilot_assist": 2.0,
+                "rear_camera": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {},
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 561560,
+              "normalized_score": 63.918,
+              "value_ratio": 1.147,
+              "weighted_points": 12.784
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 93.3,
+            "penalties_raw": 5.0,
+            "quietness": 0.0,
+            "spec": 47.1,
+            "value": 63.9
+          },
+          "penalties": {
+            "core_trim_penalty": 5.0
+          },
+          "value": {
+            "expected_price_sek": 561560,
+            "value_ratio": 1.147
+          }
+        },
+        "family_fit": 32.7,
+        "penalties": -0.2,
+        "quietness": 0.0,
+        "spec": 9.4,
+        "total": 55,
+        "value": 12.8
+      },
+      "title": "Volvo XC60",
+      "url": "https://www.blocket.se/mobility/item/22937115",
+      "year": 2025
+    },
+    {
+      "advertised_at": "2026-05-05T07:55:21.688411+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-05-05T07:55:21.688411+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:55:21.688411+00:00",
+      "listing_id": "22218740",
+      "mileage_mil": 3646,
+      "model": "xc60",
+      "price_sek": 529000,
+      "score": 55,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "raw_total": 4.0,
+              "value_sensitive_high_price": 4.0,
+              "weighted_points": -0.2
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "camera_360": 4.0,
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "leather_seats": 1.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 67.143,
+              "raw_total": 23.5,
+              "trim_points": {
+                "dark_trim": 0.0,
+                "plus_trim": 2.0
+              },
+              "weighted_points": 13.429
+            },
+            "value": {
+              "expected_price_sek": 509677,
+              "normalized_score": 46.53,
+              "value_ratio": 0.963,
+              "weighted_points": 9.306
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 93.3,
+            "penalties_raw": 4.0,
+            "quietness": 0.0,
+            "spec": 67.1,
+            "value": 46.5
+          },
+          "penalties": {
+            "value_sensitive_high_price": 4.0
+          },
+          "value": {
+            "expected_price_sek": 509677,
+            "value_ratio": 0.963
+          }
+        },
+        "family_fit": 32.7,
+        "penalties": -0.2,
+        "quietness": 0.0,
+        "spec": 13.4,
+        "total": 55,
+        "value": 9.3
+      },
+      "title": "Volvo XC60",
+      "url": "https://www.blocket.se/mobility/item/22218740",
+      "year": 2023
+    },
+    {
+      "advertised_at": "2026-05-05T07:56:28.110767+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-05-05T07:56:28.110767+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:56:28.110767+00:00",
+      "listing_id": "22949227",
+      "mileage_mil": 3195,
+      "model": "xc60",
+      "price_sek": 469000,
+      "score": 54,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 10.0,
+              "family_space_bonus": 0.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 93.333,
+              "powertrain_bonus": 8.0,
+              "raw_total": 28.0,
+              "rough_road_bonus": 5.0,
+              "rough_road_penalty": 0.0,
+              "weighted_points": 32.667
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "raw_total": 5.0,
+              "weighted_points": -0.25
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "comfort_seats": 1.0,
+                "driver_assistance": 2.0,
+                "driver_awareness": 2.0,
+                "electric_front_seats": 2.0,
+                "heated_rear_seats": 2.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0,
+                "tinted_windows": 2.0
+              },
+              "normalized_score": 47.143,
+              "raw_total": 16.5,
+              "trim_points": {},
+              "weighted_points": 9.429
+            },
+            "value": {
+              "expected_price_sek": 516709,
+              "normalized_score": 59.664,
+              "value_ratio": 1.102,
+              "weighted_points": 11.933
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 93.3,
+            "penalties_raw": 5.0,
+            "quietness": 0.0,
+            "spec": 47.1,
+            "value": 59.7
+          },
+          "penalties": {
+            "core_trim_penalty": 5.0
+          },
+          "value": {
+            "expected_price_sek": 516709,
+            "value_ratio": 1.102
+          }
+        },
+        "family_fit": 32.7,
+        "penalties": -0.2,
+        "quietness": 0.0,
+        "spec": 9.4,
+        "total": 54,
+        "value": 11.9
+      },
+      "title": "Volvo XC60",
+      "url": "https://www.blocket.se/mobility/item/22949227",
+      "year": 2023
+    },
+    {
       "advertised_at": "2026-05-03T09:01:52.246823+00:00",
       "engine": "T6",
       "first_seen_at": "2026-05-03T09:01:52.246823+00:00",
       "fuel_type": "phev",
-      "is_new_since_last_scan": true,
-      "last_seen_at": "2026-05-03T09:01:52.246823+00:00",
+      "is_new_since_last_scan": false,
+      "last_seen_at": "2026-05-05T07:56:18.307697+00:00",
       "listing_id": "22880156",
       "mileage_mil": 2370,
       "model": "xc60",
@@ -2985,7 +3163,7 @@
       "first_seen_at": "2026-05-01T09:40:36.716336+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:47.458204+00:00",
+      "last_seen_at": "2026-05-05T07:56:15.846581+00:00",
       "listing_id": "22828304",
       "mileage_mil": 5335,
       "model": "v90",
@@ -3082,7 +3260,7 @@
       "first_seen_at": "2026-05-01T11:41:07.157587+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:30.373096+00:00",
+      "last_seen_at": "2026-05-05T07:56:01.137600+00:00",
       "listing_id": "22816164",
       "mileage_mil": 2656,
       "model": "xc60",
@@ -3177,7 +3355,7 @@
       "first_seen_at": "2026-05-01T11:41:09.630335+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:32.810839+00:00",
+      "last_seen_at": "2026-05-05T07:56:03.596602+00:00",
       "listing_id": "22816230",
       "mileage_mil": 1811,
       "model": "xc60",
@@ -3272,7 +3450,7 @@
       "first_seen_at": "2026-04-28T07:37:49.305574+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:33.500795+00:00",
+      "last_seen_at": "2026-05-05T07:55:11.839953+00:00",
       "listing_id": "21314851",
       "mileage_mil": 3899,
       "model": "xc60",
@@ -3361,17 +3539,106 @@
       "year": 2023
     },
     {
-      "advertised_at": "2026-05-01T11:40:42.888229+00:00",
+      "advertised_at": "2026-05-05T07:56:25.651480+00:00",
       "engine": "T6",
-      "first_seen_at": "2026-05-01T11:40:42.888229+00:00",
+      "first_seen_at": "2026-05-05T07:56:25.651480+00:00",
+      "fuel_type": "phev",
+      "is_new_since_last_scan": true,
+      "last_seen_at": "2026-05-05T07:56:25.651480+00:00",
+      "listing_id": "22946505",
+      "mileage_mil": 5841,
+      "model": "v90",
+      "price_sek": 379000,
+      "score": 51,
+      "score_breakdown": {
+        "details": {
+          "component_breakdown": {
+            "family_fit": {
+              "base_bonus": 18.0,
+              "family_space_bonus": 5.0,
+              "generation_bonus": 5.0,
+              "normalized_score": 100.0,
+              "powertrain_bonus": 8.0,
+              "raw_total": 33.0,
+              "rough_road_bonus": 0.0,
+              "rough_road_penalty": -3.0,
+              "weighted_points": 35.0
+            },
+            "penalties": {
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 2.761,
+              "raw_total": 7.761,
+              "weighted_points": -0.388
+            },
+            "quietness": {
+              "normalized_score": 0.0,
+              "raw_total": 0.0,
+              "weighted_points": 0.0
+            },
+            "spec": {
+              "engine_adjustment_applied": "t6_recharge_bonus",
+              "engine_adjustment_raw": 0.5,
+              "feature_points": {
+                "electric_front_seats": 2.0,
+                "rear_camera": 2.0,
+                "towbar": 2.0
+              },
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
+            },
+            "value": {
+              "expected_price_sek": 422623,
+              "normalized_score": 60.935,
+              "value_ratio": 1.115,
+              "weighted_points": 12.187
+            }
+          },
+          "engine_adjustment": {
+            "applied": "t6_recharge_bonus",
+            "points": 0.5
+          },
+          "normalized": {
+            "engine_adjustment_raw": 0.5,
+            "family_fit": 100.0,
+            "penalties_raw": 7.8,
+            "quietness": 0.0,
+            "spec": 18.6,
+            "value": 60.9
+          },
+          "penalties": {
+            "core_trim_penalty": 5.0,
+            "mileage_over_ideal": 2.761
+          },
+          "value": {
+            "expected_price_sek": 422623,
+            "value_ratio": 1.115
+          }
+        },
+        "family_fit": 35.0,
+        "penalties": -0.4,
+        "quietness": 0.0,
+        "spec": 3.7,
+        "total": 51,
+        "value": 12.2
+      },
+      "title": "Volvo V90",
+      "url": "https://www.blocket.se/mobility/item/22946505",
+      "year": 2023
+    },
+    {
+      "advertised_at": "2026-04-23T19:48:16.320890+00:00",
+      "engine": "T6",
+      "first_seen_at": "2026-04-23T19:48:16.320890+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:05.536357+00:00",
-      "listing_id": "22734757",
-      "mileage_mil": 4248,
+      "last_seen_at": "2026-05-05T07:54:34.935049+00:00",
+      "listing_id": "19972330",
+      "mileage_mil": 5820,
       "model": "xc60",
-      "price_sek": 499900,
-      "score": 53,
+      "price_sek": 449000,
+      "score": 51,
       "score_breakdown": {
         "details": {
           "component_breakdown": {
@@ -3387,10 +3654,9 @@
               "weighted_points": 32.667
             },
             "penalties": {
-              "core_trim_penalty": 5.0,
-              "mileage_over_ideal": 0.372,
-              "raw_total": 5.372,
-              "weighted_points": -0.269
+              "mileage_over_ideal": 2.73,
+              "raw_total": 2.73,
+              "weighted_points": -0.137
             },
             "quietness": {
               "normalized_score": 0.0,
@@ -3403,26 +3669,24 @@
               "engine_adjustment_raw": 0.5,
               "feature_points": {
                 "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "comfort_seats": 1.0,
-                "driver_assistance": 2.0,
-                "driver_awareness": 2.0,
-                "heated_rear_seats": 2.0,
+                "electric_front_seats": 2.0,
                 "heated_steering_wheel": 2.0,
                 "panoramic_roof": 1.0,
-                "pilot_assist": 2.0,
-                "rear_camera": 2.0
+                "rear_camera": 2.0,
+                "towbar": 2.0
               },
-              "normalized_score": 47.143,
-              "raw_total": 16.5,
-              "trim_points": {},
-              "weighted_points": 9.429
+              "normalized_score": 35.714,
+              "raw_total": 12.5,
+              "trim_points": {
+                "plus_trim": 2.0
+              },
+              "weighted_points": 7.143
             },
             "value": {
-              "expected_price_sek": 540313,
-              "normalized_score": 57.68,
-              "value_ratio": 1.081,
-              "weighted_points": 11.536
+              "expected_price_sek": 475779,
+              "normalized_score": 55.666,
+              "value_ratio": 1.06,
+              "weighted_points": 11.133
             }
           },
           "engine_adjustment": {
@@ -3432,38 +3696,37 @@
           "normalized": {
             "engine_adjustment_raw": 0.5,
             "family_fit": 93.3,
-            "penalties_raw": 5.4,
+            "penalties_raw": 2.7,
             "quietness": 0.0,
-            "spec": 47.1,
-            "value": 57.7
+            "spec": 35.7,
+            "value": 55.7
           },
           "penalties": {
-            "core_trim_penalty": 5.0,
-            "mileage_over_ideal": 0.372
+            "mileage_over_ideal": 2.73
           },
           "value": {
-            "expected_price_sek": 540313,
-            "value_ratio": 1.081
+            "expected_price_sek": 475779,
+            "value_ratio": 1.06
           }
         },
         "family_fit": 32.7,
-        "penalties": -0.3,
+        "penalties": -0.1,
         "quietness": 0.0,
-        "spec": 9.4,
-        "total": 53,
-        "value": 11.5
+        "spec": 7.1,
+        "total": 51,
+        "value": 11.1
       },
       "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22734757",
-      "year": 2025
+      "url": "https://www.blocket.se/mobility/item/19972330",
+      "year": 2023
     },
     {
       "advertised_at": "2026-05-03T09:01:54.717913+00:00",
       "engine": "unknown",
       "first_seen_at": "2026-05-03T09:01:54.717913+00:00",
       "fuel_type": "phev",
-      "is_new_since_last_scan": true,
-      "last_seen_at": "2026-05-03T09:01:54.717913+00:00",
+      "is_new_since_last_scan": false,
+      "last_seen_at": "2026-05-05T07:56:20.756494+00:00",
       "listing_id": "22893383",
       "mileage_mil": 2591,
       "model": "xc60",
@@ -3553,106 +3816,12 @@
       "year": 2024
     },
     {
-      "advertised_at": "2026-05-01T09:43:01.180166+00:00",
-      "engine": "T6",
-      "first_seen_at": "2026-05-01T09:43:01.180166+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:35.217335+00:00",
-      "listing_id": "22824251",
-      "mileage_mil": 5406,
-      "model": "xc60",
-      "price_sek": 459800,
-      "score": 50,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 10.0,
-              "family_space_bonus": 0.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 93.333,
-              "powertrain_bonus": 8.0,
-              "raw_total": 28.0,
-              "rough_road_bonus": 5.0,
-              "rough_road_penalty": 0.0,
-              "weighted_points": 32.667
-            },
-            "penalties": {
-              "core_trim_penalty": 5.0,
-              "mileage_over_ideal": 2.109,
-              "raw_total": 7.109,
-              "weighted_points": -0.355
-            },
-            "quietness": {
-              "normalized_score": 0.0,
-              "panoramic_roof": 0.0,
-              "raw_total": 0.0,
-              "weighted_points": 0.0
-            },
-            "spec": {
-              "engine_adjustment_applied": "t6_recharge_bonus",
-              "engine_adjustment_raw": 0.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "electric_front_seats": 2.0,
-                "heated_steering_wheel": 2.0,
-                "panoramic_roof": 1.0,
-                "rear_camera": 2.0,
-                "towbar": 2.0
-              },
-              "normalized_score": 32.857,
-              "raw_total": 11.5,
-              "trim_points": {},
-              "weighted_points": 6.571
-            },
-            "value": {
-              "expected_price_sek": 482234,
-              "normalized_score": 54.635,
-              "value_ratio": 1.049,
-              "weighted_points": 10.927
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t6_recharge_bonus",
-            "points": 0.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 0.5,
-            "family_fit": 93.3,
-            "penalties_raw": 7.1,
-            "quietness": 0.0,
-            "spec": 32.9,
-            "value": 54.6
-          },
-          "penalties": {
-            "core_trim_penalty": 5.0,
-            "mileage_over_ideal": 2.109
-          },
-          "value": {
-            "expected_price_sek": 482234,
-            "value_ratio": 1.049
-          }
-        },
-        "family_fit": 32.7,
-        "penalties": -0.4,
-        "quietness": 0.0,
-        "spec": 6.6,
-        "total": 50,
-        "value": 10.9
-      },
-      "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22824251",
-      "year": 2023
-    },
-    {
       "advertised_at": "2026-04-28T07:38:23.156569+00:00",
       "engine": "T6",
       "first_seen_at": "2026-04-28T07:38:23.156569+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:53.246626+00:00",
+      "last_seen_at": "2026-05-05T07:55:33.984944+00:00",
       "listing_id": "22479319",
       "mileage_mil": 6000,
       "model": "xc60",
@@ -3743,110 +3912,12 @@
       "year": 2024
     },
     {
-      "advertised_at": "2026-04-28T07:39:12.015002+00:00",
-      "engine": "T8",
-      "first_seen_at": "2026-04-28T07:39:12.015002+00:00",
-      "fuel_type": "phev",
-      "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:03.140275+00:00",
-      "listing_id": "22652552",
-      "mileage_mil": 5314,
-      "model": "xc60",
-      "price_sek": 549800,
-      "score": 50,
-      "score_breakdown": {
-        "details": {
-          "component_breakdown": {
-            "family_fit": {
-              "base_bonus": 10.0,
-              "family_space_bonus": 0.0,
-              "generation_bonus": 5.0,
-              "normalized_score": 93.333,
-              "powertrain_bonus": 8.0,
-              "raw_total": 28.0,
-              "rough_road_bonus": 5.0,
-              "rough_road_penalty": 0.0,
-              "weighted_points": 32.667
-            },
-            "penalties": {
-              "mileage_over_ideal": 1.971,
-              "raw_total": 5.971,
-              "value_sensitive_high_price": 4.0,
-              "weighted_points": -0.299
-            },
-            "quietness": {
-              "normalized_score": 0.0,
-              "panoramic_roof": 0.0,
-              "raw_total": 0.0,
-              "weighted_points": 0.0
-            },
-            "spec": {
-              "engine_adjustment_applied": "t8_recharge_bonus",
-              "engine_adjustment_raw": 1.5,
-              "feature_points": {
-                "adaptive_cruise": 1.0,
-                "blis": 1.0,
-                "electric_front_seats": 2.0,
-                "heated_steering_wheel": 2.0,
-                "panoramic_roof": 1.0,
-                "pilot_assist": 2.0,
-                "rear_camera": 2.0,
-                "towbar": 2.0
-              },
-              "normalized_score": 47.143,
-              "raw_total": 16.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "ultimate_trim": 2.0
-              },
-              "weighted_points": 9.429
-            },
-            "value": {
-              "expected_price_sek": 483668,
-              "normalized_score": 38.573,
-              "value_ratio": 0.88,
-              "weighted_points": 7.715
-            }
-          },
-          "engine_adjustment": {
-            "applied": "t8_recharge_bonus",
-            "points": 1.5
-          },
-          "normalized": {
-            "engine_adjustment_raw": 1.5,
-            "family_fit": 93.3,
-            "penalties_raw": 6.0,
-            "quietness": 0.0,
-            "spec": 47.1,
-            "value": 38.6
-          },
-          "penalties": {
-            "mileage_over_ideal": 1.971,
-            "value_sensitive_high_price": 4.0
-          },
-          "value": {
-            "expected_price_sek": 483668,
-            "value_ratio": 0.88
-          }
-        },
-        "family_fit": 32.7,
-        "penalties": -0.3,
-        "quietness": 0.0,
-        "spec": 9.4,
-        "total": 50,
-        "value": 7.7
-      },
-      "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22652552",
-      "year": 2023
-    },
-    {
       "advertised_at": "2026-05-01T09:40:31.812470+00:00",
       "engine": "T6",
       "first_seen_at": "2026-05-01T09:40:31.812470+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:15.639623+00:00",
+      "last_seen_at": "2026-05-05T07:55:46.373817+00:00",
       "listing_id": "22791478",
       "mileage_mil": 4594,
       "model": "v90",
@@ -3933,7 +4004,7 @@
       "first_seen_at": "2026-04-23T19:48:38.106009+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:41.061363+00:00",
+      "last_seen_at": "2026-05-05T07:55:24.125612+00:00",
       "listing_id": "22366061",
       "mileage_mil": 4619,
       "model": "xc60",
@@ -4030,7 +4101,7 @@
       "first_seen_at": "2026-05-02T08:58:27.230910+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:50.855283+00:00",
+      "last_seen_at": "2026-05-05T07:55:31.508072+00:00",
       "listing_id": "22426674",
       "mileage_mil": 3350,
       "model": "xc60",
@@ -4121,7 +4192,7 @@
       "first_seen_at": "2026-04-23T19:48:40.545173+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:45.932334+00:00",
+      "last_seen_at": "2026-05-05T07:55:26.562584+00:00",
       "listing_id": "22403368",
       "mileage_mil": 4302,
       "model": "xc60",
@@ -4213,7 +4284,7 @@
       "first_seen_at": "2026-05-01T17:43:39.228822+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:38.528239+00:00",
+      "last_seen_at": "2026-05-05T07:55:19.210589+00:00",
       "listing_id": "21982260",
       "mileage_mil": 4489,
       "model": "xc60",
@@ -4305,7 +4376,7 @@
       "first_seen_at": "2026-04-23T19:46:14.148640+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:20.980025+00:00",
+      "last_seen_at": "2026-05-05T07:54:59.485475+00:00",
       "listing_id": "20966506",
       "mileage_mil": 2443,
       "model": "v90",
@@ -4393,7 +4464,7 @@
       "first_seen_at": "2026-04-29T07:27:55.974330+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:48.404257+00:00",
+      "last_seen_at": "2026-05-05T07:55:29.013607+00:00",
       "listing_id": "22421120",
       "mileage_mil": 5575,
       "model": "xc60",
@@ -4478,17 +4549,17 @@
       "year": 2024
     },
     {
-      "advertised_at": "2026-04-28T07:38:13.530499+00:00",
+      "advertised_at": "2026-04-23T18:39:19.888312+00:00",
       "engine": "T6",
-      "first_seen_at": "2026-04-28T07:38:13.530499+00:00",
+      "first_seen_at": "2026-04-23T18:39:19.888312+00:00",
       "fuel_type": "phev",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:00:43.478702+00:00",
-      "listing_id": "22391855",
-      "mileage_mil": 5808,
+      "last_seen_at": "2026-05-05T07:55:14.321693+00:00",
+      "listing_id": "21605460",
+      "mileage_mil": 5000,
       "model": "xc60",
-      "price_sek": 519000,
-      "score": 46,
+      "price_sek": 479000,
+      "score": 47,
       "score_breakdown": {
         "details": {
           "component_breakdown": {
@@ -4504,13 +4575,15 @@
               "weighted_points": 32.667
             },
             "penalties": {
-              "mileage_over_ideal": 2.712,
-              "raw_total": 10.712,
+              "core_trim_penalty": 5.0,
+              "mileage_over_ideal": 1.5,
+              "raw_total": 14.5,
               "requires_strong_spec_for_top_ranking": 8.0,
-              "weighted_points": -0.536
+              "weighted_points": -0.725
             },
             "quietness": {
               "normalized_score": 0.0,
+              "panoramic_roof": 0.0,
               "raw_total": 0.0,
               "weighted_points": 0.0
             },
@@ -4518,23 +4591,21 @@
               "engine_adjustment_applied": "t6_recharge_bonus",
               "engine_adjustment_raw": 0.5,
               "feature_points": {
-                "leather_seats": 1.0,
-                "rear_camera": 2.0,
-                "towbar": 2.0
+                "adaptive_cruise": 1.0,
+                "heated_steering_wheel": 2.0,
+                "panoramic_roof": 1.0,
+                "rear_camera": 2.0
               },
-              "normalized_score": 21.429,
-              "raw_total": 7.5,
-              "trim_points": {
-                "dark_trim": 0.0,
-                "plus_trim": 2.0
-              },
-              "weighted_points": 4.286
+              "normalized_score": 18.571,
+              "raw_total": 6.5,
+              "trim_points": {},
+              "weighted_points": 3.714
             },
             "value": {
-              "expected_price_sek": 495004,
-              "normalized_score": 45.608,
-              "value_ratio": 0.954,
-              "weighted_points": 9.122
+              "expected_price_sek": 508107,
+              "normalized_score": 55.773,
+              "value_ratio": 1.061,
+              "weighted_points": 11.155
             }
           },
           "engine_adjustment": {
@@ -4544,29 +4615,30 @@
           "normalized": {
             "engine_adjustment_raw": 0.5,
             "family_fit": 93.3,
-            "penalties_raw": 10.7,
+            "penalties_raw": 14.5,
             "quietness": 0.0,
-            "spec": 21.4,
-            "value": 45.6
+            "spec": 18.6,
+            "value": 55.8
           },
           "penalties": {
-            "mileage_over_ideal": 2.712,
+            "core_trim_penalty": 5.0,
+            "mileage_over_ideal": 1.5,
             "requires_strong_spec_for_top_ranking": 8.0
           },
           "value": {
-            "expected_price_sek": 495004,
-            "value_ratio": 0.954
+            "expected_price_sek": 508107,
+            "value_ratio": 1.061
           }
         },
         "family_fit": 32.7,
-        "penalties": -0.5,
+        "penalties": -0.7,
         "quietness": 0.0,
-        "spec": 4.3,
-        "total": 46,
-        "value": 9.1
+        "spec": 3.7,
+        "total": 47,
+        "value": 11.2
       },
       "title": "Volvo XC60",
-      "url": "https://www.blocket.se/mobility/item/22391855",
+      "url": "https://www.blocket.se/mobility/item/21605460",
       "year": 2024
     },
     {
@@ -4575,7 +4647,7 @@
       "first_seen_at": "2026-04-30T07:04:49.739837+00:00",
       "fuel_type": "diesel",
       "is_new_since_last_scan": false,
-      "last_seen_at": "2026-05-03T09:01:13.166339+00:00",
+      "last_seen_at": "2026-05-05T07:55:43.860131+00:00",
       "listing_id": "22788925",
       "mileage_mil": 5166,
       "model": "xc60",
@@ -4661,8 +4733,8 @@
       "year": 2024
     }
   ],
-  "generated_at": "2026-05-03T09:01:54.972431+00:00",
-  "source_run_id": 71,
-  "source_run_started_at": "2026-05-03T08:59:39.420180+00:00",
-  "total_active": 48
+  "generated_at": "2026-05-05T07:56:33.247168+00:00",
+  "source_run_id": 74,
+  "source_run_started_at": "2026-05-05T07:54:19.976985+00:00",
+  "total_active": 49
 }
