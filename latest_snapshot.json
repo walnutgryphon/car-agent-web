@@ -1184,7 +1184,7 @@
       "engine": "T6",
       "first_seen_at": "2026-05-08T06:41:23.237143+00:00",
       "fuel_type": "phev",
-      "is_new_since_last_scan": true,
+      "is_new_since_last_scan": false,
       "last_seen_at": "2026-05-08T06:41:23.237143+00:00",
       "listing_id": "23032023",
       "mileage_mil": 399,
@@ -1967,7 +1967,7 @@
       "engine": "T6",
       "first_seen_at": "2026-05-08T06:39:42.969340+00:00",
       "fuel_type": "phev",
-      "is_new_since_last_scan": true,
+      "is_new_since_last_scan": false,
       "last_seen_at": "2026-05-08T06:39:42.969340+00:00",
       "listing_id": "21226863",
       "mileage_mil": 2132,
@@ -4598,8 +4598,8 @@
       "year": 2024
     }
   ],
-  "generated_at": "2026-05-08T06:41:23.401522+00:00",
-  "source_run_id": 88,
-  "source_run_started_at": "2026-05-08T06:38:46.942666+00:00",
+  "generated_at": "2026-05-08T07:47:42.324816+00:00",
+  "source_run_id": 91,
+  "source_run_started_at": "2026-05-08T07:47:37.074547+00:00",
   "total_active": 48
 }
