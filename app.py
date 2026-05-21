@@ -58,6 +58,16 @@ def apply_shadeui_theme() -> None:
                 font-weight: 700;
             }
 
+            .scan-timestamp {
+                margin-top: 0.65rem;
+                margin-bottom: 0.5rem;
+                color: var(--shade-muted);
+                font-size: 0.95rem;
+                font-weight: 600;
+                overflow-wrap: anywhere;
+                word-break: break-word;
+            }
+
             .shade-card {
                 background: var(--shade-surface);
                 border: 1px solid var(--shade-border);
@@ -285,11 +295,14 @@ def main() -> None:
     cars = snapshot.get("cars", [])
     new_count = sum(1 for car in cars if car.get("is_new_since_last_scan"))
 
-    meta_cols = st.columns(4)
+    meta_cols = st.columns(3)
     meta_cols[0].metric("Active listings", int(snapshot.get("total_active", 0)))
     meta_cols[1].metric("Source run ID", snapshot.get("source_run_id") or "N/A")
     meta_cols[2].metric("New this scan", new_count)
-    meta_cols[3].metric("Generated at", format_timestamp(generated_at))
+    st.markdown(
+        f'<div class="scan-timestamp">Generated at: {format_timestamp(generated_at)}</div>',
+        unsafe_allow_html=True,
+    )
 
     if is_stale(generated_at):
         st.warning("Data may be stale (older than 36 hours).")
